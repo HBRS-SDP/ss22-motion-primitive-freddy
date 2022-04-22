@@ -1,3 +1,7 @@
+### Previous semester SDP git repo: 
+
+Link: https://github.com/HBRS-SDP/ws21-kelo-500-motion-control
+
 # Bringing up Freddy
 
 `mkdir freddy`
