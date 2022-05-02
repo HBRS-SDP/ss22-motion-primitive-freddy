@@ -12,7 +12,7 @@ Date :- 14/04/2022
    * Lines 126-145 of the code contain a function that is used for communication. It checks which slave is working which is not and also checks whether the robot has reached the safe operating state.
    * Line 147 of code is for initialising message.
    * Lines 150-153 of code have variables limit 1 and limit 2 which represent the maximum and minimum limits for the wheels.
-   * Lines 154-155 of code have variables setpoint1 and setpoint2 which represent the cuurent values.
+   * Lines 154-155 of code have variables setpoint1 and setpoint2 which represent the curremt values.
    * Line 157-161 of code is for reading the message and pasting that message into the EC data.
    * Lines 179-180 of code is for sending and receiving data.
    * From line 204 of code is the implementation of the force control. 
