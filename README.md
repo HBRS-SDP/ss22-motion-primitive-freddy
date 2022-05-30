@@ -250,4 +250,10 @@ End program
 
 `cmake -DCMAKE_INSTALL_PREFIX=~/sdp/install -DENABLE_ETHERCAT=ON -DENABLE_KELO=ON ..`
 
+
+#### How to build `robif2b` :
+
+ - `cmake -DCMAKE_INSTALL_PREFIX=/home/kvnptl/work/sdp_ws/install ..`
+ - `cmake -DCMAKE_C_FLAGS="-I/home/kvnptl/work/sdp_ws/install/include" -DENABLE_ETHERCAT=ON -DENABLE_KELO=ON ..`
+
 ### NOTE: WIP To be updated 
