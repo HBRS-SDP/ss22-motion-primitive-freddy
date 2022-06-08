@@ -1,0 +1,1531 @@
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.02 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.02 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.02 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.02 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.02 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.02 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]= 0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]= 0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.01 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]=-0.00 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0, conn=1]: w_vel[0]=-0.00 - w_vel[1]= 0.01 - p_pos= 0.60
+!!!wheel unit 1 stoppeddrive [id=0
