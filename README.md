@@ -5,16 +5,12 @@
 
 Link: https://github.com/HBRS-SDP/ws21-kelo-500-motion-control
 
-### To-do:
-
-1. [ ]change values for rectangle robot configuration (4 active wheels) in `PlatformToWheelInverseKinematicsSolver.c` 
-
 
 ### How to get active wheels (slaves) indexes:
 
 Go to `SOEM/build/test/linux/slaveinfo` directory and run `sudo ./slaveinfo <your-ethernet-port-id>` (Note: the slaveinfo file should be executable)
 
-[FYI: get the ethernet port id by running `sudo ifconfig`]
+[FYI: get the ethernet port id by running `ifconfig` or `ip a`]
 
 Example: `sudo ./slaveinfo enp5s0`
 
@@ -23,7 +19,7 @@ Notedown the index of the "**Slave**" field.
 
 --> Example: for the given sample output, the indexes are **{3, 5, 7, 9}**.
 
-##### Sample output:
+#### Sample output:
 
 ```
 SOEM (Simple Open EtherCAT Master)
@@ -220,7 +216,22 @@ End program
 ```
 
 
-# Bringing up Freddy
+# How to build `robif2b`: 
+ - `cmake -DCMAKE_INSTALL_PREFIX=/home/kvnptl/work/sdp_ws/install ..`
+ - `cmake -DCMAKE_C_FLAGS="-I/home/kvnptl/work/sdp_ws/install/include" -DENABLE_ETHERCAT=ON -DENABLE_KELO=ON ..`
+
+# How to run code:
+
+- Go to `robif2b` directory
+- `cd build`
+- `make` 
+- Check that `Built target kelo_robile_example` line is there in output
+- To run the `kelo_robile_example.c` file, do `sudo ./src/example/kelo_robile_example`
+
+
+# --- OLD ---
+
+#### Bringing up Freddy
 
 `mkdir freddy`
 
@@ -250,10 +261,6 @@ End program
 
 `cmake -DCMAKE_INSTALL_PREFIX=~/sdp/install -DENABLE_ETHERCAT=ON -DENABLE_KELO=ON ..`
 
+##### NOTE: WIP To be updated 
 
-#### How to build `robif2b` :
 
- - `cmake -DCMAKE_INSTALL_PREFIX=/home/kvnptl/work/sdp_ws/install ..`
- - `cmake -DCMAKE_C_FLAGS="-I/home/kvnptl/work/sdp_ws/install/include" -DENABLE_ETHERCAT=ON -DENABLE_KELO=ON ..`
-
-### NOTE: WIP To be updated 
