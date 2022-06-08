@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <stdbool.h>
 #include <time.h>
-
+#include <math.h>
 #include <robif2b/functions/ethercat.h>
 #include <robif2b/functions/kelo_drive.h>
 #include <robif2b/functions/kelo_power_board.h>
@@ -74,6 +74,7 @@ static struct {
 
 int main()
 {
+
     // Configuration
     state.num_drives              = NUM_DRIVES;
     state.time.cycle_time_exp     = 1000;        // [us]
@@ -213,13 +214,24 @@ int main()
     //double ref_pvange;
 
     //init
-    double thrd[4] = {2.10,3.47,2.94,0.6};
+    
+    double pi = 3.14;
+    double max_angle = 6.28;
+    // printf(fmod((2.10+pi),max_angle));
+    double thrd_pos_x[4] = {2.10,3.47,2.94,0.6};
+
+
+    // TODO: use fmod using math.h library
+    // double thrd_neg_x[4] = {fmod(2.10+pi,max_angle),fmod(0.33+pi,max_angle),fmod(2.94+pi,max_angle),fmod(0.6+pi,max_angle)};
+    
+    double thrd_neg_x[4] = {2.10+pi, 0.33, 2.94+pi, 0.6+pi};
+    double thrd_pos_y[4] = {2.10+pi/2, 3.47+pi/2, 2.94+pi/2, 0.6+pi/2};
+    // double thrd_neg_y[4] = {2.10+1.5*pi, 3.47+1.5*pi, 2.94+1.5*pi, 0.6+1.5*pi};
+    double thrd_neg_y[4] = {0.53, 1.9, 1.37, 0.6+1.5*pi};
+
     double prev_torque[8] = {0};
     int stop_wheel_counter[4] = {0,0,0,0};
-    double unit_torque1 = 2.2;
-    double unit_torque2 = 2.2;
-    double unit_torque3 = 2.2;
-    double unit_torque4 = 2.2;
+  
 
     
     while (true) {
@@ -235,9 +247,8 @@ int main()
                 // stop_wheel_counter[i]=1;
             // }
             
-            printf("center difference:\ndrive%d:%f\n",i,state.kelo_msr.pvt_pos[i] - thrd[i]);
             //if(state.kelo_msr.pvt_pos[i] - thrd[i] >0){
-            if(thrd[i] < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < thrd[i]+3.14){
+            if(thrd_neg_y[i] < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < thrd_neg_y[i]+3.14){
 
                     state.kelo_cmd.trq[2*i] = 1.3; // clockwise
                     state.kelo_cmd.trq[2*i+1] = 1.3;
@@ -264,7 +275,7 @@ int main()
     
            
 
-            if (thrd[i]-0.05 < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < thrd[i]+0.05){ //pv_angle - ref
+            if (thrd_neg_y[i]-0.05 < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < thrd_neg_y[i]+0.05){ //pv_angle - ref
                 printf("!!!wheel unit %d stopped\n",i);
 
                 stop_wheel_counter[i]=1;
