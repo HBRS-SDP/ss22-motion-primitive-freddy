@@ -191,7 +191,7 @@ int main(int argc, char *argv[])
     double pi = 3.14;
     double max_angle = 6.28;
     //char *ptr;
-    double angle = 180;
+    double angle = 270;
     //angle = strtod(argv[1], &ptr);
     // printf(fmod((2.10+pi),max_angle));
     double setpoint[4] = {0,0,0,0};
@@ -212,12 +212,15 @@ int main(int argc, char *argv[])
     else if(angle == 90){
 
         // POS Y
+        setpoint[0] = fmod(2.10 + pi/2, max_angle);
+        setpoint[1] = fmod(3.47 + pi/2, max_angle);
+        setpoint[2] = fmod(2.94 + pi/2, max_angle);
+        setpoint[3] = fmod(0.60 + pi/2, max_angle);
 
-        setpoint[0] = 2.10 + pi/2;
-        setpoint[1] = 3.47 + pi/2;
-        setpoint[2] = 2.94 + pi/2;
-        setpoint[3] = 0.60 + pi/2;
-
+        // setpoint[0] = 2.10 + pi/2;
+        // setpoint[1] = 3.47 + pi/2;
+        // setpoint[2] = 2.94 + pi/2;
+        // setpoint[3] = 0.60 + pi/2;
 
         // setpoint[4] = {2.10+pi/2, 3.47+pi/2, 2.94+pi/2, 0.6+pi/2};
     }
@@ -225,20 +228,31 @@ int main(int argc, char *argv[])
 
         // NEG X
 
-        setpoint[0] = 2.10 + pi;
-        setpoint[1] = 0.33;
-        setpoint[2] = 2.94 + pi;
-        setpoint[3] = 0.60 + pi;
+
+        setpoint[0] = fmod(2.10 + pi, max_angle);
+        setpoint[1] = fmod(3.47 + pi, max_angle);
+        setpoint[2] = fmod(2.94 + pi, max_angle);
+        setpoint[3] = fmod(0.60 + pi, max_angle);
+
+        // setpoint[0] = 2.10 + pi;
+        // setpoint[1] = 0.33;
+        // setpoint[2] = 2.94 + pi;
+        // setpoint[3] = 0.60 + pi;
 
         // double setpoint[4] = {2.10+pi, 0.33, 2.94+pi, 0.6+pi};
     }
     else if(angle == 270){
         //NEG Y
 
-        setpoint[0] = 0.53;
-        setpoint[1] = 1.9;
-        setpoint[2] = 1.37;
-        setpoint[3] = 0.60 + 1.5*pi;
+        setpoint[0] = fmod(2.10 + 1.5 * pi, max_angle);
+        setpoint[1] = fmod(3.47 + 1.5 * pi, max_angle);
+        setpoint[2] = fmod(2.94 + 1.5 * pi, max_angle);
+        setpoint[3] = fmod(0.60 + 1.5 * pi, max_angle);
+
+        // setpoint[0] = 0.53;
+        // setpoint[1] = 1.9;
+        // setpoint[2] = 1.37;
+        // setpoint[3] = 0.60 + 1.5*pi;
 
         // double setpoint = {0.53, 1.9, 1.37, 0.6+1.5*pi};
     }
