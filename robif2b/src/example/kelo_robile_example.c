@@ -72,7 +72,8 @@ static struct {
 } state;
 
 
-int main()
+int main(int argc, char *argv[])
+// int main()
 {
 
     // Configuration
@@ -81,10 +82,10 @@ int main()
     state.ecat.ethernet_if        = "enp61s0";
     state.ecat.num_exposed_slaves = NUM_SLAVES;
     state.ecat.slave_idx[0]       = 1;
-    state.ecat.slave_idx[1]       = 3;
-    state.ecat.slave_idx[2]       = 5;
-    state.ecat.slave_idx[3]       = 7;
-    state.ecat.slave_idx[4]       = 9;
+    state.ecat.slave_idx[1]       = 3;//3
+    state.ecat.slave_idx[2]       = 5;//5
+    state.ecat.slave_idx[3]       = 7;//7
+    state.ecat.slave_idx[4]       = 9;//9
 
     for (int i = 0; i < NUM_DRIVES; i++) {
         state.kelo_cmd.ctrl_mode[i]           = ROBIF2B_CTRL_MODE_FORCE,
@@ -98,13 +99,14 @@ int main()
     state.kelo_msr.pvt_off[0] = 0;
     state.kelo_msr.pvt_off[1] = 0;
 
-    state.ecat.name[0]        = "KELO_ROBILE";
-    state.ecat.prod_code[0]   = 0x02100101;
+    state.ecat.name[0]        = "KELO_ROBILE"; //KELO_ROBILE / CU1128
+    state.ecat.prod_code[0]   = 0x02100101;//0x02100101 / 0x04685432
     state.ecat.input_size[0]  = sizeof(state.ecat_comm.pb_msr_pdo);
     state.ecat.output_size[0] = sizeof(state.ecat_comm.pb_cmd_pdo);
     for (int i = 1; i < NUM_DRIVES + 1; i++) {
-        state.ecat.name[i]        = "KELOD105";
-        state.ecat.prod_code[i]   = 0x02001001;
+        state.ecat.name[i]        = "KELOD105"; //KELOD105 / SWMC
+        state.ecat.prod_code[i]   = 0x02001001;//0x02001001 / 0x01705011
+        
         state.ecat.input_size[i]  = sizeof(state.ecat_comm.drv_msr_pdo[i - 1]);
         state.ecat.output_size[i] = sizeof(state.ecat_comm.drv_cmd_pdo[i - 1]);
     }
@@ -176,32 +178,6 @@ int main()
         .power_msr   = &state.kelo_msr.bat_pwr
     };
 
-    /*
-    float F = 1;
-    double r_w = 0.0524; //the radius of the wheel
-    for (int i = 0; i < NUM_DRIVES; i++) {
-        state.kelo_cmd.trq[i] = F*r_w;
-    }
-    for (int j =0; j< NUM_DRIVES;j++){
-        printf("pvt value %f" , state.kelo_msr.pvt_pos[j]);
-    }
-    */
-    // for (int i = 0; i < NUM_DRIVES*2; i++) {
-    //     state.kelo_cmd.trq[i] = 1.0;
-    // }
-    // if(state.kelo_msr.pvt_pos[0] - (2.15) > 0){
-    //     state.kelo_cmd.trq[0] = 2.2;
-    //     state.kelo_cmd.trq[1] = 2.2;
-    // }
-    // state.kelo_cmd.vel[0] = 12;
-    // state.kelo_cmd.vel[1] = 12;
-    // state.kelo_cmd.cur[0] = 6;
-    // state.kelo_cmd.cur[1] = 6;
-
-    // else{
-    //     state.kelo_cmd.trq[0] = -2.2;
-    //     state.kelo_cmd.trq[1] = -2.2;
-    // }
 
     // Schedule
     robif2b_ethercat_configure(&ecat);
@@ -210,292 +186,109 @@ int main()
     robif2b_ethercat_start(&ecat);
     if (state.ecat.error_code < 0) return -1;
     
-    //declare an array of reference agnle
-    //double ref_pvange;
 
     //init
-    
     double pi = 3.14;
     double max_angle = 6.28;
+    //char *ptr;
+    double angle = 180;
+    //angle = strtod(argv[1], &ptr);
     // printf(fmod((2.10+pi),max_angle));
-    double thrd_pos_x[4] = {2.10,3.47,2.94,0.6};
+    double setpoint[4] = {0,0,0,0};
+    
+    if (angle == 0){
 
+        //POS X
+        setpoint[0] = 2.10;
+        setpoint[1] = 3.47;
+        setpoint[2] = 2.94;
+        setpoint[3] = 0.6;
+    }
 
+    //double thrd_pos_x[4] = {2.10,3.47,2.94,0.6};
     // TODO: use fmod using math.h library
     // double thrd_neg_x[4] = {fmod(2.10+pi,max_angle),fmod(0.33+pi,max_angle),fmod(2.94+pi,max_angle),fmod(0.6+pi,max_angle)};
     
-    double thrd_neg_x[4] = {2.10+pi, 0.33, 2.94+pi, 0.6+pi};
-    double thrd_pos_y[4] = {2.10+pi/2, 3.47+pi/2, 2.94+pi/2, 0.6+pi/2};
-    // double thrd_neg_y[4] = {2.10+1.5*pi, 3.47+1.5*pi, 2.94+1.5*pi, 0.6+1.5*pi};
-    double thrd_neg_y[4] = {0.53, 1.9, 1.37, 0.6+1.5*pi};
+    else if(angle == 90){
 
-    double prev_torque[8] = {0};
+        // POS Y
+
+        setpoint[0] = 2.10 + pi/2;
+        setpoint[1] = 3.47 + pi/2;
+        setpoint[2] = 2.94 + pi/2;
+        setpoint[3] = 0.60 + pi/2;
+
+
+        // setpoint[4] = {2.10+pi/2, 3.47+pi/2, 2.94+pi/2, 0.6+pi/2};
+    }
+    else if(angle ==180){
+
+        // NEG X
+
+        setpoint[0] = 2.10 + pi;
+        setpoint[1] = 0.33;
+        setpoint[2] = 2.94 + pi;
+        setpoint[3] = 0.60 + pi;
+
+        // double setpoint[4] = {2.10+pi, 0.33, 2.94+pi, 0.6+pi};
+    }
+    else if(angle == 270){
+        //NEG Y
+
+        setpoint[0] = 0.53;
+        setpoint[1] = 1.9;
+        setpoint[2] = 1.37;
+        setpoint[3] = 0.60 + 1.5*pi;
+
+        // double setpoint = {0.53, 1.9, 1.37, 0.6+1.5*pi};
+    }
+
     int stop_wheel_counter[4] = {0,0,0,0};
+    bool isAligned = false;
+
+    //double thrd_neg_x[4] = {2.10+pi, 0.33, 2.94+pi, 0.6+pi};
+    //double thrd_pos_y[4] = {2.10+pi/2, 3.47+pi/2, 2.94+pi/2, 0.6+pi/2};
+    // double thrd_neg_y[4] = {2.10+1.5*pi, 3.47+1.5*pi, 2.94+1.5*pi, 0.6+1.5*pi};
+    //double thrd_neg_y[4] = {0.53, 1.9, 1.37, 0.6+1.5*pi};
+
   
-
-    
     while (true) {
-
         if (state.ecat.error_code < 0) return -1;
 
-        // double diff =  fabs(state.kelo_msr.pvt_pos[0] - (2.10));
-        // printf("==========================%f\n",diff);
-        
-
-        for (int i = 0;i<4;i++){
-            // if (-0.02< prev_torque[i]<0.02){
-                // stop_wheel_counter[i]=1;
-            // }
-            
-            //if(state.kelo_msr.pvt_pos[i] - thrd[i] >0){
-            if(thrd_neg_y[i] < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < thrd_neg_y[i]+3.14){
-
-                    state.kelo_cmd.trq[2*i] = 1.3; // clockwise
-                    state.kelo_cmd.trq[2*i+1] = 1.3;
-                    printf("uwu,%d",i);
-  
-                robif2b_ethercat_update(&ecat);
-                robif2b_kelo_drive_encoder_update(&drive_enc);
-                robif2b_kelo_drive_imu_update(&imu);
-                robif2b_kelo_drive_actuator_update(&wheel_act);
-                robif2b_kelo_power_board_update(&power_board);
+        for (int i = 0;i<NUM_DRIVES;i++){
+            if(isAligned == false && setpoint[i] <  state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i]+3.14){
+                state.kelo_cmd.trq[2*i] = 1.3; // clockwise
+                state.kelo_cmd.trq[2*i+1] = 1.3;
+                printf("!!!CLOCKWISE %d \n",i);
             }
             else{
+
+                if (isAligned == false){
                     state.kelo_cmd.trq[2*i] = -1.3; //counterclockwise
                     state.kelo_cmd.trq[2*i+1] = -1.3;
-                    printf("heyyyyyy,%d",i);
-
-                robif2b_ethercat_update(&ecat);
-                robif2b_kelo_drive_encoder_update(&drive_enc);
-                robif2b_kelo_drive_imu_update(&imu);
-                robif2b_kelo_drive_actuator_update(&wheel_act);
-                robif2b_kelo_power_board_update(&power_board);
+                    printf("!!!ANTI-CLOCKWISE %d stopped\n",i);
+                }
             }
-
-    
-           
-
-            if (thrd_neg_y[i]-0.05 < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < thrd_neg_y[i]+0.05){ //pv_angle - ref
+            if (setpoint[i]-0.09 < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i]+0.09){ 
                 printf("!!!wheel unit %d stopped\n",i);
-
                 stop_wheel_counter[i]=1;
-            
-
-                // if (thrd[0]-0.15 > state.kelo_msr.pvt_pos[0] && state.kelo_msr.pvt_pos[0] < thrd[0]+0.15) {
-                //    state.kelo_cmd.trq[1] = 2.2; 
-                //    state.kelo_cmd.trq[2] = 2.2;
-                //    state.kelo_cmd.trq[3] = 2.2;
-                // }
-
-                // if(thrd[1]-0.15 > state.kelo_msr.pvt_pos[1] && state.kelo_msr.pvt_pos[1] < thrd[1]+0.15) {
-                //    state.kelo_cmd.trq[0] = 2.2;
-                //    state.kelo_cmd.trq[2] = 2.2;
-                //    state.kelo_cmd.trq[3] = 2.2;
-                // }
-                
-                // if ( thrd[2]-0.15 > state.kelo_msr.pvt_pos[2] && state.kelo_msr.pvt_pos[2] < thrd[2]+0.15) {
-                //    state.kelo_cmd.trq[0] = 2.2; 
-                //    state.kelo_cmd.trq[1] = 2.2;
-                //    state.kelo_cmd.trq[3] = 2.2;
-                // }
-
-                // if (thrd[3]-0.15 > state.kelo_msr.pvt_pos[3] && state.kelo_msr.pvt_pos[3] < thrd[3]+0.15) {
-                //    state.kelo_cmd.trq[0] = 2.2;
-                //    state.kelo_cmd.trq[1] = 2.2;
-                //    state.kelo_cmd.trq[2] = 2.2;
-                // }
-
-                //force ctl
                 state.kelo_cmd.trq[2*i] = 0.00;
-                state.kelo_cmd.trq[2*i+1] = 0.00;
-
-                //vel ctl
-                // state.kelo_cmd.vel[0] = 0;
-                // state.kelo_cmd.vel[1] = 0;
-                // state.kelo_cmd.cur[0] = 0;
-                // state.kelo_cmd.cur[1] = 0;
-        
-
-            robif2b_ethercat_update(&ecat);
-            robif2b_kelo_drive_encoder_update(&drive_enc);
-            robif2b_kelo_drive_imu_update(&imu);
-            robif2b_kelo_drive_actuator_update(&wheel_act);
-            robif2b_kelo_power_board_update(&power_board);
+                state.kelo_cmd.trq[2*i+1] = 0.00;   
             }
+            else{
+                stop_wheel_counter[i]=0;
+                isAligned = false;
+            }
+        }
 
+        if (stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 1 &&stop_wheel_counter[3] == 1)
+        {
+                printf("All wheels are aligned!!!!!!");        
+                isAligned = true;
+                    // break;
+        }
 
-
-             //       if (state.kelo_msr.whl_vel[0] <0.1 || state.kelo_msr.whl_vel[1]<0.1){
-            // double force;
-            // scanf("force: %f",force);
-            // state.kelo_cmd.trq[0] = force;
-            // state.kelo_cmd.trq[1] = force;
-
-        }
-        /*
-        if(stop_wheel_counter[0] == 0 && stop_wheel_counter[1] == 0 && stop_wheel_counter[2] == 0 && stop_wheel_counter[3] == 0){
-            state.kelo_cmd.trq[0] = 2.2;
-            state.kelo_cmd.trq[1] = 2.2;
-            state.kelo_cmd.trq[2] = 2.2;
-            state.kelo_cmd.trq[3] = 2.2;
-            state.kelo_cmd.trq[4] = 2.2;//
-            state.kelo_cmd.trq[5] = 2.2;//
-            state.kelo_cmd.trq[6] = 2.2;//
-            state.kelo_cmd.trq[7] = 2.2;//
-        }
-        else if(stop_wheel_counter[0] == 0 && stop_wheel_counter[1] == 0 && stop_wheel_counter[2] == 0 && stop_wheel_counter[3] == 1){
-            state.kelo_cmd.trq[0] = 2.2;
-            state.kelo_cmd.trq[1] = 2.2;
-            state.kelo_cmd.trq[2] = 2.2;
-            state.kelo_cmd.trq[3] = 2.2;
-            state.kelo_cmd.trq[4] = 2.2;//
-            state.kelo_cmd.trq[5] = 2.2;//
-            state.kelo_cmd.trq[6] = 0;
-            state.kelo_cmd.trq[7] = 0;
-        }
-        else if(stop_wheel_counter[0] == 0 && stop_wheel_counter[1] == 0 && stop_wheel_counter[2] == 1 && stop_wheel_counter[3] == 0){
-            state.kelo_cmd.trq[0] = 2.2;
-            state.kelo_cmd.trq[1] = 2.2;
-            state.kelo_cmd.trq[2] = 2.2;
-            state.kelo_cmd.trq[3] = 2.2;
-            state.kelo_cmd.trq[4] = 0;
-            state.kelo_cmd.trq[5] = 0;
-            state.kelo_cmd.trq[6] = 2.2;
-            state.kelo_cmd.trq[7] = 2.2;
-        }
-        else if(stop_wheel_counter[0] == 0 && stop_wheel_counter[1] == 0 && stop_wheel_counter[2] == 1 && stop_wheel_counter[3] == 1){
-            state.kelo_cmd.trq[0] = 2.2;
-            state.kelo_cmd.trq[1] = 2.2;
-            state.kelo_cmd.trq[2] = 2.2;
-            state.kelo_cmd.trq[3] = 2.2;
-            state.kelo_cmd.trq[4] = 0;
-            state.kelo_cmd.trq[5] = 0;
-            state.kelo_cmd.trq[6] = 0;
-            state.kelo_cmd.trq[7] = 0;
-        }
-        else if(stop_wheel_counter[0] == 0 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 0 && stop_wheel_counter[3] == 0){
-            state.kelo_cmd.trq[0] = 2.2;
-            state.kelo_cmd.trq[1] = 2.2;
-            state.kelo_cmd.trq[2] = 0;
-            state.kelo_cmd.trq[3] = 0;
-            state.kelo_cmd.trq[4] = 2.2;//
-            state.kelo_cmd.trq[5] = 2.2;//
-            state.kelo_cmd.trq[6] = 2.2;//
-            state.kelo_cmd.trq[7] = 2.2;//
-        }
-        else if(stop_wheel_counter[0] == 0 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 0 && stop_wheel_counter[3] == 1){
-            state.kelo_cmd.trq[0] = 2.2;
-            state.kelo_cmd.trq[1] = 2.2;
-            state.kelo_cmd.trq[2] = 0;
-            state.kelo_cmd.trq[3] = 0;
-            state.kelo_cmd.trq[4] = 2.2;//
-            state.kelo_cmd.trq[5] = 2;//
-            state.kelo_cmd.trq[6] = 0;
-            state.kelo_cmd.trq[7] = 0;
-        }
-        else if(stop_wheel_counter[0] == 0 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 1 && stop_wheel_counter[3] == 0){
-            state.kelo_cmd.trq[0] = 2.2;
-            state.kelo_cmd.trq[1] = 2.2;
-            state.kelo_cmd.trq[2] = 0;
-            state.kelo_cmd.trq[3] = 0;
-            state.kelo_cmd.trq[4] = 0;
-            state.kelo_cmd.trq[5] = 0;
-            state.kelo_cmd.trq[6] = 2.2;
-            state.kelo_cmd.trq[7] = 2.2;
-        }
-        else if(stop_wheel_counter[0] == 0 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 1 && stop_wheel_counter[3] == 1){
-            state.kelo_cmd.trq[0] = 2.2;
-            state.kelo_cmd.trq[1] = 2.2;
-            state.kelo_cmd.trq[2] = 0;
-            state.kelo_cmd.trq[3] = 0;
-            state.kelo_cmd.trq[4] = 0;
-            state.kelo_cmd.trq[5] = 0;
-            state.kelo_cmd.trq[6] = 0;
-            state.kelo_cmd.trq[7] = 0;
-        }
-        else if(stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 0 && stop_wheel_counter[2] == 0 && stop_wheel_counter[3] == 0){
-            state.kelo_cmd.trq[0] = 0;
-            state.kelo_cmd.trq[1] = 0;
-            state.kelo_cmd.trq[2] = 2.2;
-            state.kelo_cmd.trq[3] = 2.2;
-            state.kelo_cmd.trq[4] = 2.2;//
-            state.kelo_cmd.trq[5] = 2.2;//
-            state.kelo_cmd.trq[6] = 2;
-            state.kelo_cmd.trq[7] = 2;
-        }
-        else if(stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 0 && stop_wheel_counter[2] == 0 && stop_wheel_counter[3] == 1){
-            state.kelo_cmd.trq[0] = 0;
-            state.kelo_cmd.trq[1] = 0;
-            state.kelo_cmd.trq[2] = 2.2;
-            state.kelo_cmd.trq[3] = 2.2;
-            state.kelo_cmd.trq[4] = 2.2;//
-            state.kelo_cmd.trq[5] = 2.2;//
-            state.kelo_cmd.trq[6] = 0;
-            state.kelo_cmd.trq[7] = 0;
-        }
-        else if(stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 0 && stop_wheel_counter[2] == 1 && stop_wheel_counter[3] == 0){
-            state.kelo_cmd.trq[0] = 0;
-            state.kelo_cmd.trq[1] = 0;
-            state.kelo_cmd.trq[2] = 2.2;
-            state.kelo_cmd.trq[3] = 2.2;
-            state.kelo_cmd.trq[4] = 0;
-            state.kelo_cmd.trq[5] = 0;
-            state.kelo_cmd.trq[6] = 2.2;
-            state.kelo_cmd.trq[7] = 2.2;
-        }
-        else if(stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 0 && stop_wheel_counter[2] == 1 && stop_wheel_counter[3] == 1){
-            state.kelo_cmd.trq[0] = 0;
-            state.kelo_cmd.trq[1] = 0;
-            state.kelo_cmd.trq[2] = 2.2;
-            state.kelo_cmd.trq[3] = 2.2;
-            state.kelo_cmd.trq[4] = 0;
-            state.kelo_cmd.trq[5] = 0;
-            state.kelo_cmd.trq[6] = 0;
-            state.kelo_cmd.trq[7] = 0;
-        }
-        else if(stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 0 && stop_wheel_counter[3] == 0){
-            state.kelo_cmd.trq[0] = 0;
-            state.kelo_cmd.trq[1] = 0;
-            state.kelo_cmd.trq[2] = 0;
-            state.kelo_cmd.trq[3] = 0;
-            state.kelo_cmd.trq[4] = 2.2;//
-            state.kelo_cmd.trq[5] = 2.2;//
-            state.kelo_cmd.trq[6] = 2.2;
-            state.kelo_cmd.trq[7] = 2.2;
-        }
-        else if(stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 0 && stop_wheel_counter[3] == 1){
-            state.kelo_cmd.trq[0] = 0;
-            state.kelo_cmd.trq[1] = 0;
-            state.kelo_cmd.trq[2] = 0;
-            state.kelo_cmd.trq[3] = 0;
-            state.kelo_cmd.trq[4] = 2.7; //
-            state.kelo_cmd.trq[5] = 2.7;//
-            state.kelo_cmd.trq[6] = 0;
-            state.kelo_cmd.trq[7] = 0;
-        }
-        else if(stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 1 && stop_wheel_counter[3] == 0){
-            state.kelo_cmd.trq[0] = 0;
-            state.kelo_cmd.trq[1] = 0;
-            state.kelo_cmd.trq[2] = 0;
-            state.kelo_cmd.trq[3] = 0;
-            state.kelo_cmd.trq[4] = 0;
-            state.kelo_cmd.trq[5] = 0;
-            state.kelo_cmd.trq[6] = 2.7;
-            state.kelo_cmd.trq[7] = 2.7;
-        }
-        else{
-            state.kelo_cmd.trq[0] = 0;
-            state.kelo_cmd.trq[1] = 0;
-            state.kelo_cmd.trq[2] = 0;
-            state.kelo_cmd.trq[3] = 0;
-            state.kelo_cmd.trq[4] = 0;
-            state.kelo_cmd.trq[5] = 0;
-            state.kelo_cmd.trq[6] = 0;
-            state.kelo_cmd.trq[7] = 0;
-        }
-        */
         clock_gettime(CLOCK_MONOTONIC, &state.time.cycle_start);
-
         robif2b_ethercat_update(&ecat);
         robif2b_kelo_drive_encoder_update(&drive_enc);
         robif2b_kelo_drive_imu_update(&imu);
@@ -503,7 +296,6 @@ int main()
         robif2b_kelo_power_board_update(&power_board);
 
         for (int i = 0; i < NUM_DRIVES; i++) {
-        ///for (int i = 0; i < 1; i++) {
             
             printf("drive [id=%i, conn=%i]: "
                     "w_vel[0]=%5.2f - w_vel[1]=%5.2f - p_pos=%5.2f\n",
@@ -531,8 +323,6 @@ int main()
         if((state.time.cycle_time_exp - state.time.cycle_time_msr)> 0){
             usleep(state.time.cycle_time_exp - state.time.cycle_time_msr);
         }
-
-
 
     }
 
