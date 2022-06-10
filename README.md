@@ -217,8 +217,8 @@ End program
 
 
 # How to build `robif2b`: 
- - `cmake -DCMAKE_INSTALL_PREFIX=/home/kvnptl/work/sdp_ws/install ..`
- - `cmake -DCMAKE_C_FLAGS="-I/home/kvnptl/work/sdp_ws/install/include" -DENABLE_ETHERCAT=ON -DENABLE_KELO=ON ..`
+ - `cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install ..`
+ - `cmake -DCMAKE_C_FLAGS="-I<path to install your folder>/install/include" -DENABLE_ETHERCAT=ON -DENABLE_KELO=ON ..`
 
 # How to run code:
 
