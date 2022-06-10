@@ -231,7 +231,7 @@ int main(int argc, char *argv[])
 
         setpoint[0] = fmod(2.10 + pi, max_angle);
         setpoint[1] = fmod(3.47 + pi, max_angle);
-        setpoint[2] = 2.94 + 3.14; //fmod(2.94 + pi, max_angle);
+        setpoint[2] = fmod(2.94 + pi, max_angle);
         setpoint[3] = fmod(0.60 + pi, max_angle);
 
         // setpoint[0] = 2.10 + pi;
@@ -270,31 +270,20 @@ int main(int argc, char *argv[])
         if (state.ecat.error_code < 0) return -1;
 
         for (int i = 0;i<NUM_DRIVES;i++){
-            if(isAligned == false){
-                if (setpoint[i]> pi){
-                    if(state.kelo_msr.pvt_pos[i] < setpoint[i] - pi || state.kelo_msr.pvt_pos[i] > setpoint[i]){
-                        state.kelo_cmd.trq[2*i] = 1.3; //clockwise
-                        state.kelo_cmd.trq[2*i+1] = 1.3;
-                    }
-                    else{
-                        state.kelo_cmd.trq[2*i] = -1.3; //counterclockwise
-                        state.kelo_cmd.trq[2*i+1] = -1.3;
-                    }
-                    
-                }
-                else{
-                    if(state.kelo_msr.pvt_pos[i] > setpoint[i] + pi || state.kelo_msr.pvt_pos[i] < setpoint[i]){
-                        state.kelo_cmd.trq[2*i] = 1.3; //clockwise
-                        state.kelo_cmd.trq[2*i+1] = 1.3;
-                    }
-                    else{
-                        state.kelo_cmd.trq[2*i] = -1.3; //counterclockwise
-                        state.kelo_cmd.trq[2*i+1] = -1.3;
-                    }
+            if(isAligned == false && setpoint[i] <  state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i]+3.14){
+                state.kelo_cmd.trq[2*i] = 1.3; // clockwise
+                state.kelo_cmd.trq[2*i+1] = 1.3;
+                printf("!!!CLOCKWISE %d \n",i);
             }
+            else{
 
+                if (isAligned == false){
+                    state.kelo_cmd.trq[2*i] = -1.3; //counterclockwise
+                    state.kelo_cmd.trq[2*i+1] = -1.3;
+                    printf("!!!ANTI-CLOCKWISE %d stopped\n",i);
+                }
             }
-            if (setpoint[i]-0.05 < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i]+0.05){ 
+            if (setpoint[i]-0.09 < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i]+0.09){ 
                 printf("!!!wheel unit %d stopped\n",i);
                 stop_wheel_counter[i]=1;
                 state.kelo_cmd.trq[2*i] = 0.00;
