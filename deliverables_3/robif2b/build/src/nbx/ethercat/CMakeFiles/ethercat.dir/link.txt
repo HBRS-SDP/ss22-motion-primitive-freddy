@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -I/home/barath/sdp/install/include  -shared -Wl,-soname,libethercat.so -o libethercat.so CMakeFiles/ethercat.dir/ethercat.c.o  -Wl,-rpath,/home/barath/sdp/install/lib: /home/barath/sdp/install/lib/libsoem.so -lpthread -lrt 

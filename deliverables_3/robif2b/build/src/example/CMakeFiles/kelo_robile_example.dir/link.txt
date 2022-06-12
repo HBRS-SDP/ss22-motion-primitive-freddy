@@ -1,0 +1,1 @@
+/usr/bin/cc -I/home/barath/sdp/install/include   CMakeFiles/kelo_robile_example.dir/kelo_robile_example.c.o  -o kelo_robile_example  -Wl,-rpath,/home/barath/sdp/robif2b/build/src/nbx/kelo:/home/barath/sdp/robif2b/build/src/nbx/ethercat:/home/barath/sdp/install/lib ../nbx/kelo/libkelo.so ../nbx/ethercat/libethercat.so -lm -Wl,-rpath-link,/home/barath/sdp/install/lib 
