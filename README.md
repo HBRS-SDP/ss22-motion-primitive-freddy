@@ -6,6 +6,10 @@
 Link: https://github.com/HBRS-SDP/ws21-kelo-500-motion-control
 
 
+### Robif2b git repo: 
+
+Link: https://github.com/rosym-project/robif2b
+
 ### How to get active wheels (slaves) indexes:
 
 Go to `SOEM/build/test/linux/slaveinfo` directory and run `sudo ./slaveinfo <your-ethernet-port-id>` (Note: the slaveinfo file should be executable)
