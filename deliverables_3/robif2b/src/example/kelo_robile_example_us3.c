@@ -360,14 +360,15 @@ int main(int argc, char *argv[])
 
             printf("Linear Acceleration : %f \n", state.kelo_msr.imu_lin_acc[0]);
             printf("Angular Velocity : %f \n", state.kelo_msr.imu_ang_vel[0]);
-            state.kelo_cmd.trq[0] = -0.475;      //0.1
-            state.kelo_cmd.trq[1] =  0.475;      //0.2
-            state.kelo_cmd.trq[2] = -0.475;    //1.1
-            state.kelo_cmd.trq[3] =  0.475;      // 1.2
-            state.kelo_cmd.trq[4] = -0.475;      // 2.1
-            state.kelo_cmd.trq[5] =  0.475;      // 2.2
-            state.kelo_cmd.trq[6] = -0.475;      // 3.1
-            state.kelo_cmd.trq[7] =  0.475;      // 3.2
+            state.kelo_cmd.trq[0] = -2.5;      //0.1
+            state.kelo_cmd.trq[1] =  2.5;      //0.2
+            state.kelo_cmd.trq[2] = -2.5;    //1.1
+            state.kelo_cmd.trq[3] =  2.5;      // 1.2
+            state.kelo_cmd.trq[4] = -2.5;      // 2.1
+            state.kelo_cmd.trq[5] =  2.5;      // 2.2
+            state.kelo_cmd.trq[6] = -2.5;      // 3.1
+            state.kelo_cmd.trq[7] =  2.5;      // 3.2
+
 
 
             
@@ -382,15 +383,26 @@ int main(int argc, char *argv[])
 
         for (int i = 0; i < NUM_DRIVES; i++) {
             printf("drive [id=%i, conn=%i]: "
-                    "w_vel[0]=%5.2f - w_vel[1]=%5.2f - p_pos=%5.2f\n",
+                    "w_vel[0]=%5.2f - w_vel[1]=%5.2f - p_pos=%5.2f , imu_ang_vel= %5.2f ,imu_lin_acc=%5.2f\n",
                     i, state.ecat.is_connected[i + 1],
                     state.kelo_msr.whl_vel[i * 2 + 0],
                     state.kelo_msr.whl_vel[i * 2 + 1],
-                    state.kelo_msr.pvt_pos[i]);
+                    state.kelo_msr.pvt_pos[i],
+                    state.kelo_msr.imu_ang_vel[i],
+                    state.kelo_msr.imu_lin_acc[i]);    
             //double pvangle[NUM_DRIVES] = state.kelo_msr.pvt_pos[i]
+            //        printf("power board conn=%i: "
+            // "b_volt=%5.2f - b_cur[1]=%5.2f - b_pwr=%5.2f - b_lvl=%5.2i\n",
+            // state.ecat.is_connected[0],
+            // state.kelo_msr.bat_volt,
+            // state.kelo_msr.bat_cur,
+            // state.kelo_msr.bat_pwr,
+            // state.kelo_msr.bat_lvl);
+            //printf("\n");
+            printf("HIIIIIIIIII/n");
         }
 
-
+ 
         clock_gettime(CLOCK_MONOTONIC, &state.time.cycle_end);
         state.time.cycle_time_msr = timespec_to_usec(&state.time.cycle_end)
                                   - timespec_to_usec(&state.time.cycle_start);
