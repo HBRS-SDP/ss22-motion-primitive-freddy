@@ -218,7 +218,7 @@ Slave:9
 End slaveinfo, close socket
 End program
 ```
-
+# Update : TODO - SOEM library
 
 # How to build `robif2b`: 
  - `cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install ..`
