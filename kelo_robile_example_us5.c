@@ -72,26 +72,105 @@ static struct {
 } state;
 
 static struct{
-    enum states{START,WHEEL_ALIGN,BASED_ALIGN,RAMP,STOP};
-    bool current_state;
+    enum states{START,WHEEL_ALIGN,BASED_ALIGN,RAMP,STOP}type;
+    int current_state;
     bool is_wheel_align;
     bool is_base_align;
     bool is_go_up;
     bool isStop;
 } state_machine;
 
-void wheel_alignment(){
+void wheel_alignment(double target_angle,double setpoint[4]){
     state_machine.current_state = WHEEL_ALIGN;
+    printf("Flags: wheel align:%d,base align:%d,ramp:%d,stop:%d\n",
+    state_machine.is_wheel_align,state_machine.is_base_align,state_machine.is_go_up,state_machine.isStop);
+    printf("Current state: %d \n",state_machine.current_state);
 
+    int stop_wheel_counter[4] = {0,0,0,0};
+    for (int i = 0;i<NUM_DRIVES;i++){
+        if(state_machine.is_wheel_align == false && setpoint[i] <  state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i]+3.14){
+                if (stop_wheel_counter[2] == 1 && i == 2){
+                    printf("!!!wheel unit 2 stopped\n");
+                    state.kelo_cmd.trq[4] = 0.00;
+                    state.kelo_cmd.trq[5] = 0.00; 
+                }
+                else{
+                    state.kelo_cmd.trq[2*i] = 1.3; //clockwise
+                    state.kelo_cmd.trq[2*i+1] = 1.3;
+                    printf("!!!CLOCKWISE %d\n",i);
+                }
+        }
+        else{
+            if (state_machine.is_wheel_align== false){
+                if (stop_wheel_counter[2] == 1 && i == 2){
+                    printf("!!!wheel unit 2 stopped\n");
+                    state.kelo_cmd.trq[4] = 0.00;
+                    state.kelo_cmd.trq[5] = 0.00;     
+                }
+                else{
+                    state.kelo_cmd.trq[2*i] = -1.3; //counterclockwise
+                    state.kelo_cmd.trq[2*i+1] = -1.3;
+                    printf("!!!ANTI-CLOCKWISE %d\n",i);
+                    }
+                }
+        }
+        if (setpoint[i]-0.05 < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i]+0.05){ 
+            printf("!!!wheel unit %d stopped\n",i);
+            stop_wheel_counter[i]=1;
+            state.kelo_cmd.trq[2*i] = 0.00;
+            state.kelo_cmd.trq[2*i+1] = 0.00;   
+        }
+        else{
+            stop_wheel_counter[i]=0;
+            state_machine.is_wheel_align = false;
+        }
+    }
+
+        if (stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 1 &&stop_wheel_counter[3] == 1)
+        {
+                printf("All wheels are aligned!!!!!!");        
+                state_machine.is_wheel_align = true;
+        }
 }
 void based_alignment(){
     state_machine.current_state = BASED_ALIGN;
+    printf("Flags: wheel align:%d,base align:%d,ramp:%d,stop:%d\n",
+    state_machine.is_wheel_align,state_machine.is_base_align,state_machine.is_go_up,state_machine.isStop);
+    printf("Current state: %d \n",state_machine.current_state);
+    //0.6 in defalt
+    state.kelo_cmd.trq[0] = 0;
+    state.kelo_cmd.trq[1] = 0;
+    state.kelo_cmd.trq[2] = 0;
+    state.kelo_cmd.trq[3] = 0;
+    state.kelo_cmd.trq[4] = 0;
+    state.kelo_cmd.trq[5] = 0;
+    state.kelo_cmd.trq[6] = 0;
+    state.kelo_cmd.trq[7] = 0;
+    state_machine.is_base_align = true; //testing state machine purpose
 }
 void ramp(){
+    printf("Flags: wheel align:%d,base align:%d,ramp:%d,stop:%d\n",
+    state_machine.is_wheel_align,state_machine.is_base_align,state_machine.is_go_up,state_machine.isStop);
     state_machine.current_state = RAMP;
+    printf("Current state: %d \n",state_machine.current_state);
+    state_machine.is_go_up = true;
+    state_machine.isStop = true;
+
 }
 void stop(){
     state_machine.current_state = STOP;
+    printf("Flags: wheel align:%d,base align:%d,ramp:%d,stop:%d\n",
+    state_machine.is_wheel_align,state_machine.is_base_align,state_machine.is_go_up,state_machine.isStop);
+    printf("Current state: %d \n",state_machine.current_state);
+    state.kelo_cmd.trq[0] = 0;
+    state.kelo_cmd.trq[1] = 0;
+    state.kelo_cmd.trq[2] = 0;
+    state.kelo_cmd.trq[3] = 0;
+    state.kelo_cmd.trq[4] = 0;
+    state.kelo_cmd.trq[5] = 0;
+    state.kelo_cmd.trq[6] = 0;
+    state.kelo_cmd.trq[7] = 0;
+    state_machine.isStop = true;
 }
 
 int main(int argc, char *argv[])
@@ -210,30 +289,33 @@ int main(int argc, char *argv[])
     //init
     double pi = 3.14;
     double max_angle = 6.28;
-    //char *ptr;
-    double angle = 90;
-    //angle = strtod(argv[1], &ptr);
+    //double angle = 90;
+    char *ptr;
+    int angle = strtol(argv[1], &ptr,10);
     // printf(fmod((2.10+pi),max_angle));
     double setpoint[4] = {0,0,0,0};
     
     //state mechine def
-    state_machine.current_state =START;
+    
+    state_machine.current_state = START;
     state_machine.is_base_align = false;
     state_machine.is_wheel_align = false;
-    state
+    state_machine.is_go_up = false;
+    state_machine.isStop = false;
+    
+    //set point def
+    //double thrd_pos_x[4] = {2.10,3.47,2.94,0.6};
+    // double thrd_neg_x[4] = {fmod(2.10+pi,max_angle),fmod(0.33+pi,max_angle),fmod(2.94+pi,max_angle),fmod(0.6+pi,max_angle)};
+    if (angle % 90 != 0){ //restrict to 0,90,180,270 degree
+        angle = 0;
+    }
     if (angle == 0){
-
         //POS X
         setpoint[0] = 2.10;
         setpoint[1] = 3.47;
         setpoint[2] = 2.94;
         setpoint[3] = 0.6;
-    }
-
-    //double thrd_pos_x[4] = {2.10,3.47,2.94,0.6};
-    // TODO: use fmod using math.h library
-    // double thrd_neg_x[4] = {fmod(2.10+pi,max_angle),fmod(0.33+pi,max_angle),fmod(2.94+pi,max_angle),fmod(0.6+pi,max_angle)};
-    
+    }   
     else if(angle == 90){
         // POS Y
         setpoint[0] = fmod(2.10 + pi/2, max_angle);
@@ -276,7 +358,40 @@ int main(int argc, char *argv[])
         robif2b_kelo_drive_actuator_update(&wheel_act);
         robif2b_kelo_power_board_update(&power_board);
 
+        if (state_machine.current_state == START){
+            printf("%d",state_machine.current_state);
+            state_machine.is_wheel_align = false;
+            state_machine.current_state = WHEEL_ALIGN;
+        }
+        else{
+            if (state_machine.is_wheel_align == false){
+                printf("WHEEL");
+                wheel_alignment(angle,setpoint);
+            }
+            else if(state_machine.is_base_align == false && state_machine.is_wheel_align == true){
+                state_machine.current_state = BASED_ALIGN;
+                printf("BASE");
+                based_alignment();
+            }
+            else if(state_machine.is_base_align == true && state_machine.isStop == false){
+                state_machine.current_state = RAMP;
+                printf("RAMP");
+                ramp();
+            }
+            else if(state_machine.isStop == true){
+                state_machine.current_state = STOP;
+                printf("STOP");
+                stop();
+            }
+            else{
+                state_machine.current_state = STOP;
+                printf("STOP");
+                stop(); //stop when the robot is in seraching mode (unidentify state)
+            }
+        }
 
+        //print all motor and sensor data
+        /*
         for (int i = 0; i < NUM_DRIVES; i++) {
             printf("drive [id=%i, conn=%i]: "
                     "w_vel[0]=%5.2f - w_vel[1]=%5.2f - p_pos=%5.2f ,pvt_vel=%5.2f, imu_ang_vel= %5.2f ,imu_lin_acc=%5.2f\n",
@@ -297,7 +412,7 @@ int main(int argc, char *argv[])
                 state.kelo_msr.bat_pwr,
                 state.kelo_msr.bat_lvl);
         printf("\n");
-
+        */
 
 
         clock_gettime(CLOCK_MONOTONIC, &state.time.cycle_end);
