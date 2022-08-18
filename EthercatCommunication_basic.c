@@ -3,7 +3,7 @@
  * @author Kavya Shankar (kavya.shankar@smail.inf.h-brs.de)
  * @brief Establishing connection with ehtercat and performing data transfer with robot
  * @date 2022-03-12
- *
+ * 
  */
 #include "ethercat.h"
 #include "ethercattype.h"
@@ -25,14 +25,14 @@
 #include "PlatformToWheelInverseKinematicsSolver.h"
 #include "KELORobotKinematics.h"
 #include <gsl/gsl_matrix_double.h>
-#include <string.h>
+#include <string.h> 
 #include <math.h>
 
 /**
  * @brief Establishing connection with ehtercat and performing data transfer with robot
- *
- * @param argc
- * @param argv
+ * 
+ * @param argc 
+ * @param argv 
  * @return int to signify successful execution of the function
  */
 int main(int argc, char *argv[])
@@ -78,31 +78,31 @@ int main(int argc, char *argv[])
     ecx_context.eepFMMU = &ec_FMMU;
     ecx_context.manualstatechange = 0; // should be 0
 
-    int nWheels = 4;
+    int nWheels = 4; 
     int index_to_EtherCAT[4] = {5, 7, 9, 3};
     bool debug = false;
     char arg[] = "debug";
-    if (strcmp(argv[1], arg) == 0)
+    if (strcmp(argv[1],arg) == 0)
     {
         debug = true;
     }
-
+    
     /**
      * @brief port name on our PC to initiate connection
-     *
+     * 
      */
-    if (!ecx_init(&ecx_context, "enp5s0"))
-    {
+    if (!ecx_init(&ecx_context, "enp61s0"))
+    { 
         printf("Failed to initialize EtherCAT\n");
         return 0;
     }
 
     /**
      * @brief checking establishment of first connection with slave or autoconfig slaves
-     *
+     * 
      */
     if (!ecx_config_init(&ecx_context, TRUE))
-    {
+    { 
         printf("NO SLAVES!\n");
         return 0;
     }
@@ -113,7 +113,7 @@ int main(int argc, char *argv[])
 
     /**
      * @brief Reading all slave names w.r.t their no.
-     *
+     * 
      */
     for (int i = 1; i <= ecx_slavecount; i++)
     {
@@ -122,7 +122,7 @@ int main(int argc, char *argv[])
 
     /**
      * @brief waiting for all slaves to reach SAFE_OP state
-     *
+     * 
      */
     ecx_statecheck(&ecx_context, 0, EC_STATE_SAFE_OP, EC_TIMEOUTSTATE);
 
@@ -133,7 +133,7 @@ int main(int argc, char *argv[])
 
         /**
          * @brief if not all slaves operational, find out which one
-         *
+         * 
          */
         for (int i = 1; i <= ecx_slavecount; i++)
         {
@@ -163,19 +163,19 @@ int main(int argc, char *argv[])
 
     /**
      * @brief sending process data
-     *
+     * 
      */
-    ecx_send_processdata(&ecx_context);
+    ecx_send_processdata(&ecx_context); 
 
     /**
      * @brief setting state to operational
-     *
+     * 
      */
-    ecx_slave[0].state = EC_STATE_OPERATIONAL;
+    ecx_slave[0].state = EC_STATE_OPERATIONAL; 
 
     /**
      * @brief receiving response from slaves
-     *
+     * 
      */
     ecx_send_processdata(&ecx_context);
     ecx_receive_processdata(&ecx_context, EC_TIMEOUTRET);
@@ -184,9 +184,9 @@ int main(int argc, char *argv[])
 
     /**
      * @brief checking if the slaves have reached operational state
-     *
+     * 
      */
-    ecx_statecheck(&ecx_context, 0, EC_STATE_OPERATIONAL, EC_TIMEOUTSTATE);
+    ecx_statecheck(&ecx_context, 0, EC_STATE_OPERATIONAL, EC_TIMEOUTSTATE); 
 
     if (ecx_slave[0].state != EC_STATE_OPERATIONAL)
     {
@@ -200,19 +200,19 @@ int main(int argc, char *argv[])
 
     /**
      * @brief initialising pointers to variables used for solving the problem of inverse kinematics
-     *
+     * 
      */
     int cnt = 0;
     const unsigned int N = 3;
     const unsigned int M = 8;
-    double motor_const = 3.5714; // units: (Ampere/Newton-meter)
+    double motor_const = 3.5714; //units: (Ampere/Newton-meter)
     gsl_matrix *A = gsl_matrix_alloc(N, M);
     gsl_matrix *A_inv_T = gsl_matrix_alloc(M, N);
     gsl_matrix *A_tmp = gsl_matrix_alloc(N, M);
     gsl_matrix *A_inv_T_tmp = gsl_matrix_alloc(M, N);
     gsl_vector *work = gsl_vector_alloc(N);
-    gsl_matrix *W = gsl_matrix_alloc(N, N);
-    gsl_matrix *K = gsl_matrix_alloc(M, M);
+    gsl_matrix *W = gsl_matrix_alloc(N, N); 
+    gsl_matrix *K = gsl_matrix_alloc(M, M); 
     gsl_vector *u = gsl_vector_alloc(N);
     gsl_matrix *V = gsl_matrix_alloc(N, N);
     gsl_matrix *u_inv = gsl_matrix_alloc(N, N);
@@ -221,7 +221,7 @@ int main(int argc, char *argv[])
 
     /**
      * @brief initialising arrays to store pivot angles and wheel torques
-     *
+     * 
      */
     double pivot_angles[4];
     // //double pivot_position[4];
@@ -229,36 +229,37 @@ int main(int argc, char *argv[])
     // double wheel_torques[8];
     // double wheel_velocity[8];
     // double wheel_current[8];
-    // double imu_ang_vel[12]; //x,y,z for each wheel unit
+    // double imu_ang_vel[12]; //x,y,z for each wheel unit 
     // double imu_lin_acc[12]; //x,y,z for each wheel unit
-
-    // logging def
+    
+    //logging def
     FILE *fpt;
-    fpt = fopen("ramp_log_f_var_01.csv", "w+");
-    fprintf(fpt, "drive id,f_var,wheel_velocity1,wheel_velocity2,wheel_current1,wheel_current2,pivot_angle,pivot_velocity,imu_ang_vel_x,imu_ang_vel_y,imu_ang_vel_z,imu_lin_acc_x,imu_lin_acc_y,imu_lin_acc_z\n");
+    // fpt = fopen("ramp_log_02.csv", "w+");
+    // fprintf(fpt,"drive id,f_var,wheel_velocity1,wheel_velocity2,wheel_current1,wheel_current2,pivot_angle,pivot_velocity,imu_ang_vel_x,imu_ang_vel_y,imu_ang_vel_z,imu_lin_acc_x,imu_lin_acc_y,imu_lin_acc_z\n");
 
     /**
      * @brief setting input platform force values
-     *
+     * 
      */
-    gsl_matrix_set(b, 0, 0, 0.);   // force is set in X-direction
+    gsl_matrix_set(b, 0, 0, 0.); // force is set in X-direction
     gsl_matrix_set(b, 1, 0, 200.); // force is set in Y-direction
-    gsl_matrix_set(b, 2, 0, 0.);   // moment is set in anti-clockwise direction
+    gsl_matrix_set(b, 2, 0, 0.); // moment is set in anti-clockwise direction
 
     /**
      * @brief reading data from individual wheels
-     *
+     * 
      */
     for (unsigned int i = 0; i < nWheels; i++)
     {
         txpdo1_t *ecData = (txpdo1_t *)ecx_slave[index_to_EtherCAT[i]].inputs;
         pivot_angles[i] = ecData->encoder_pivot;
-
+        
         // pivot_velocity[i] = ecData->velocity_pivot;
         // wheel_velocity[i] = ecData->velocity_1;
         // wheel_velocity[i+1] = ecData->velocity_2;
         // wheel_current[i] = ecData->current_1_d;
         // wheel_current[i+1]= ecData->current_2_d;
+
 
         // imu_ang_vel[i] = ecData->gyro_x;
         // imu_ang_vel[i+1] = ecData->gyro_y;
@@ -266,11 +267,13 @@ int main(int argc, char *argv[])
         // imu_lin_acc[i] = ecData->accel_x;
         // imu_lin_acc[i+1] = ecData->accel_y;
         // imu_lin_acc[i+2] = ecData->accel_z;
+        
+        
     }
 
     /**
      * @brief setting the weght matrix
-     *
+     * 
      */
     size_t i;
     for (i = 0; i < M; i++)
@@ -285,39 +288,39 @@ int main(int argc, char *argv[])
 
     /**
      * @brief setting number of iterations until which the force has to be applied
-     *
+     * 
      */
     double pivot_velocity[4];
     double wheel_torques[8];
     double wheel_velocity[8];
     double wheel_current[8];
-    double imu_ang_vel[12]; // x,y,z for each wheel unit
-    double imu_lin_acc[12]; // x,y,z for each wheel unit
+    double imu_ang_vel[12]; //x,y,z for each wheel unit 
+    double imu_lin_acc[12]; //x,y,z for each wheel unit
 
-    double f_max = 450;
+    double f_max = 200;
     double f_var = 0;
-    double vel_threshold = 15;
-    double damping_const = f_max / vel_threshold;
-    double stop_flag = 0;
-    double avg_iterations = 15;
-    double cnt_iter = 0;
-    double vel_acc = 0;
+    double vel_threshold = 10;
+    double damping_const = f_max/vel_threshold;
 
-    while (cnt < 800)
+    while (cnt < 400)
     {
         /**
          * @brief setting sleep time between iterations to achieve communication frequency of 1000Hz
-         *
+         * 
          */
 
+        
+
+
         usleep(10000);
-        gsl_matrix_set(b, 0, 0, 0.);    // force is set in X-direction
+        gsl_matrix_set(b, 0, 0, 0.); // force is set in X-direction
         gsl_matrix_set(b, 1, 0, f_var); // force is set in Y-direction
-        gsl_matrix_set(b, 2, 0, 0.);    // moment is set in anti-clockwise direction
+        gsl_matrix_set(b, 2, 0, 0.); // moment is set in anti-clockwise direction
+
 
         /**
-         * @brief finding wheel torques for each iteration parameterised by pivot angles
-         *
+         * @brief finding wheel torques for each iteration parameterised by pivot angles 
+         * 
          */
         functions_main(wheel_torques,
                        pivot_angles,
@@ -347,11 +350,12 @@ int main(int argc, char *argv[])
 
         /**
          * @brief setting calculated torque values to individual wheels
-         *
+         * 
          */
         if (debug)
         {
-            // printf("\nsetpoint values:\n");
+            //printf("\nsetpoint values:\n");
+            
         }
         for (unsigned int i = 0; i < nWheels; i++) // runs all wheels
         {
@@ -363,109 +367,72 @@ int main(int argc, char *argv[])
             txpdo1_t *InecData = (txpdo1_t *)ecx_slave[index_to_EtherCAT[i]].inputs;
             /**
              * @brief printing angles after offsetting the pivots
-             *
+             * 
              */
             pivot_angles[i] = InecData->encoder_pivot;
             pivot_velocity[i] = InecData->velocity_pivot;
             wheel_velocity[i] = InecData->velocity_1;
-            wheel_velocity[i + 1] = InecData->velocity_2;
+            wheel_velocity[i+1] = InecData->velocity_2;
             wheel_current[i] = InecData->current_1_d;
-            wheel_current[i + 1] = InecData->current_2_d;
+            wheel_current[i+1]= InecData->current_2_d;
+
 
             imu_ang_vel[i] = InecData->gyro_x;
-            imu_ang_vel[i + 1] = InecData->gyro_y;
-            imu_ang_vel[i + 2] = InecData->gyro_z;
+            imu_ang_vel[i+1] = InecData->gyro_y;
+            imu_ang_vel[i+2] = InecData->gyro_z;
             imu_lin_acc[i] = InecData->accel_x;
-            imu_lin_acc[i + 1] = InecData->accel_y;
-            imu_lin_acc[i + 2] = InecData->accel_z;
-
+            imu_lin_acc[i+1] = InecData->accel_y;
+            imu_lin_acc[i+2] = InecData->accel_z;
+            
             if (debug)
             {
-                // printf("%f\t", -motor_const * wheel_torques[2 * i]);
-                // printf("%f\t", motor_const * wheel_torques[2 * i + 1]);
+                //printf("%f\t", -motor_const * wheel_torques[2 * i]);
+                //printf("%f\t", motor_const * wheel_torques[2 * i + 1]);
 
-                // printf("\nlogging\n");
-
-                fprintf(fpt, "%d,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f\n",
-                        i, f_var, wheel_velocity[i], wheel_velocity[i + 1], wheel_current[i], wheel_current[i + 1],
-                        pivot_angles[i], pivot_velocity[i],
-                        imu_ang_vel[i], imu_ang_vel[i + 1], imu_ang_vel[i + 2],
-                        imu_lin_acc[i], imu_lin_acc[i + 1], imu_lin_acc[i + 2]);
+                //printf("\nlogging\n");
+                
+                // fprintf(fpt,"%d,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f\n",
+                // i,f_var,wheel_velocity[i],wheel_velocity[i+1],wheel_current[i],wheel_current[i+1],
+                // pivot_angles[i],pivot_velocity[i],
+                // imu_ang_vel[i],imu_ang_vel[i+1],imu_ang_vel[i+2],
+                // imu_lin_acc[i],imu_lin_acc[i+1],imu_lin_acc[i+2]);
+                
+                
             }
 
-            /**
-             * @brief keeping the max velocity of the wheels below a threshold
-             *
-             */
-            // if (((fabs(wheel_velocity[i]) + fabs(wheel_velocity[i + 1])) / 2) > vel_threshold)
-            // if (((fabs(wheel_velocity[i])) / 2) > vel_threshold)
-            if (((fabs(wheel_velocity[i]))) > vel_threshold)
-            {
-                // vel_acc = vel_acc + wheel_velocity[0] + wheel_velocity[i + 1];
-                vel_acc = vel_acc + wheel_velocity[0];
-
-                // check velocity for 5 iterations
-                if (cnt_iter > avg_iterations)
-                {
-                    if (stop_flag == 0)
-                    {
-                        // f_var = f_max - damping_const * vel_threshold;
-                        f_var = 0;
-                        stop_flag = 1;
-                        printf("\nROBOT stopped after 5 iterations\n");
-                    }
-                }
-                else
-                {
-                    cnt_iter += 1;
-                }
-            }
-
-            else
-            {
-                // f_var = f_max - damping_const * ((fabs(wheel_velocity[i]) + fabs(wheel_velocity[i + 1])) / 2);
-                // f_var = f_max - damping_const * ((fabs(wheel_velocity[i])) / 2);
-                f_var = f_max - damping_const * ((fabs(wheel_velocity[i])));
-                vel_acc = 0;
-            }
-
-            printf("force values: %f \n", f_var);
+            f_var = f_max - damping_const*((fabs(wheel_velocity[i])+fabs(wheel_velocity[i+1]))/2);
+            printf("force values: %f \n",f_var);
         }
-
-        if (stop_flag == 1)
-        {
-            break;
-        }
-
         printf("log DONE!");
         /**
          * @brief Construct a new ecx send processdata object
-         *
+         * 
          */
-        ecx_send_processdata(&ecx_context);
+        ecx_send_processdata(&ecx_context); 
 
         /**
          * @brief Construct a new ecx receive processdata object
-         *
+         * 
          */
         ecx_receive_processdata(&ecx_context, EC_TIMEOUTRET);
 
         /**
          * @brief receiving updated pivot angles
-         *
+         * 
          */
         for (unsigned int i = 0; i < nWheels; i++)
         {
             txpdo1_t *ecData = (txpdo1_t *)ecx_slave[index_to_EtherCAT[i]].inputs;
             pivot_angles[i] = ecData->encoder_pivot;
+            
         }
     }
 
     /**
      * @brief releasing memory from all initialised pointers
-     *
+     * 
      */
-    fclose(fpt);
+    //fclose(fpt);
     gsl_matrix_free(b);
     gsl_matrix_free(b_verify);
 
