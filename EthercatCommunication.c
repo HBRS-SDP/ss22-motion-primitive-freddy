@@ -91,7 +91,7 @@ int main(int argc, char *argv[])
      * @brief port name on our PC to initiate connection
      *
      */
-    if (!ecx_init(&ecx_context, "enp5s0"))
+    if (!ecx_init(&ecx_context, "enp61s0"))
     {
         printf("Failed to initialize EtherCAT\n");
         return 0;
@@ -294,12 +294,12 @@ int main(int argc, char *argv[])
     double imu_ang_vel[12]; // x,y,z for each wheel unit
     double imu_lin_acc[12]; // x,y,z for each wheel unit
 
-    double f_max = 450;
+    double f_max = 230;
     double f_var = 0;
-    double vel_threshold = 15;
+    double vel_threshold = 9; //base:15.30
     double damping_const = f_max / vel_threshold;
     double stop_flag = 0;
-    double avg_iterations = 15;
+    double avg_iterations = 7; //base:8,7
     double cnt_iter = 0;
     double vel_acc = 0;
 
