@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/robif2b/functions/2dof.h
+robif2b/types/2dof.h
+-
+
+../include/robif2b/types/2dof.h
+
+/home/barath/sdp/robif2b/src/example/2dof_example.c
+stdio.h
+-
+robif2b/functions/2dof.h
+-
+
