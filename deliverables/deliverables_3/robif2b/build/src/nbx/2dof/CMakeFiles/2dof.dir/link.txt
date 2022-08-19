@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -I/home/barath/sdp/install/include  -shared -Wl,-soname,lib2dof.so -o lib2dof.so CMakeFiles/2dof.dir/2dof.c.o 

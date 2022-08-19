@@ -1,0 +1,1 @@
+/usr/bin/cc -I/home/barath/sdp/install/include   CMakeFiles/2dof_example.dir/2dof_example.c.o  -o 2dof_example  -Wl,-rpath,/home/barath/sdp/robif2b/build/src/nbx/2dof ../nbx/2dof/lib2dof.so 

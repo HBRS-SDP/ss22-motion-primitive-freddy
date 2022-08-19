@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -I/home/barath/sdp/install/include  -shared -Wl,-soname,libkelo.so -o libkelo.so CMakeFiles/kelo.dir/kelo_drive.c.o CMakeFiles/kelo.dir/kelo_power_board.c.o 
