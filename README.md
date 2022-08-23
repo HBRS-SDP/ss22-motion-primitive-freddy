@@ -9,8 +9,9 @@ The aim of the project is performing a controlled movement over the ramp using m
 
 [<div align="center"><img width="460" src="media/images/Robile.png"></div>](https://griffig.xyz)
 
+
 <p align="center">
-  You can find many videos of the project <a href="[https://github.com/HBRS-SDP/ss22-motion-primitive-freddy/tree/main/media/video](https://drive.google.com/drive/folders/1rVMj4RdJPmCHwqase1NZHOby6o1TtAJh?usp=sharing)">here</a>!
+  You can find many videos on <a href="https://drive.google.com/drive/folders/1rVMj4RdJPmCHwqase1NZHOby6o1TtAJh?usp=sharing">griffig.xyz</a>!
 </p>
 
 ## Getting started
