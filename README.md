@@ -11,7 +11,7 @@ The aim of the project is performing a controlled movement over the ramp using m
 
 
 <p align="center">
-  You can find many videos on <a href="https://drive.google.com/drive/folders/1rVMj4RdJPmCHwqase1NZHOby6o1TtAJh?usp=sharing">griffig.xyz</a>!
+  You can find videos regarding the project <a href="https://drive.google.com/drive/folders/1rVMj4RdJPmCHwqase1NZHOby6o1TtAJh?usp=sharing">here</a>!
 </p>
 
 ## Getting started
