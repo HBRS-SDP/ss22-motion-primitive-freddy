@@ -27,7 +27,7 @@ The aim of the project is performing a controlled movement over the ramp using m
 ### Building SOEM library 
 ```bash
 git clone https://github.com/OpenEtherCATsociety/SOEM
-
+cd SOEM
 mkdir build
 cd build
 cmake ..
@@ -36,12 +36,9 @@ make
 
 ### Building robif2b library 
 ```bash
-git clone https://github.com/OpenEtherCATsociety/SOEM
-
-mkdir build
-cd build
-cmake ..
-make
+cd robif2b
+cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install ..
+cmake -DCMAKE_C_FLAGS="-I<path to install your folder>/install/include" -DENABLE_ETHERCAT=ON -DENABLE_KELO=ON ..
 ```
 
 ### How to get active wheels (slaves) indexes:
