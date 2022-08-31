@@ -64,6 +64,11 @@ make
 
 sudo ./src/example/kelo_robile_example
 ```
+## How to make any library as package:
+```
+HI
+
+```
 
 
 ## User story / TODO 
