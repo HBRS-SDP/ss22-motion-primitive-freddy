@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -I/home/wing/Documents/SDP/sdp_ws/install/include  -shared -Wl,-soname,lib2dof.so -o lib2dof.so CMakeFiles/2dof.dir/2dof.c.o 

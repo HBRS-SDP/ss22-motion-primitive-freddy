@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -I/home/wing/Documents/SDP/sdp_ws/install/include  -shared -Wl,-soname,libkelo.so -o libkelo.so CMakeFiles/kelo.dir/kelo_drive.c.o CMakeFiles/kelo.dir/kelo_power_board.c.o 
