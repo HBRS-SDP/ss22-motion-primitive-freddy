@@ -1,0 +1,46 @@
+cd ws21-kelo-500-motion-control/
+ cd KELO_SDP/
+ cd build
+ ccmake  ..
+ rm -rf *
+ ls
+ cmake -DENABLE_PACKAGE_REGISTRY=on ..
+ rm -rf *
+ cmake -DCMAKE_INSTALL_PREFIX=/home/yashika/SDP/install -DENABLE_PACKAGE_REGISTRY=on ..
+ make
+ cd 
+ cd sdp_ws/ws21-kelo-500-motion-control/KELO_SDP/build/
+ rm -rf *
+ cmake -DCMAKE_INSTALL_PREFIX=/home/yashika/SDP/install -DENABLE_PACKAGE_REGISTRY=on ..
+ make
+ cd 
+ cd sdp_ws/robif2b/build/
+ rm -rf *
+ cmake -DCMAKE_INSTALL_PREFIX=/home/yashika/SDP/install -DENABLE_PACKAGE_REGISTRY=on -DENABLE_ETHERCAT=on -DENABLE_KELO=on ..
+ make
+ cd robif2b/build/
+ rm -rf *
+ cmake -DCMAKE_INSTALL_PREFIX=/home/yashika/SDP/install -DENABLE_PACKAGE_REGISTRY=on -DENABLE_ETHERCAT=on -DENABLE_KELO=on ..
+ make
+ cd 
+ cd sdp_ws/ss22-motion-primitive-freddy/
+ mkdir build
+ cd build/
+ cmake
+ cmake ..
+ make
+ cmake ..
+ make
+ clear
+ make
+ cd ..
+ rm -r build
+ mkdir build
+ cd build/
+ clear
+ cmake ..
+ make
+ clear
+ history
+ history 
+ history > command_history_s22_project_build.txt
