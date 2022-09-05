@@ -24,9 +24,25 @@ The aim of the project is performing a controlled movement over the ramp using m
  - WS21 SDP repository: Motion Control of the KELO 500 [Kelo 500 motion control](https://github.com/HBRS-SDP/ws21-kelo-500-motion-control)
 
 
+#### [**TODO 1: how to create an install folder (where we keep all SOEM files)?]
+
+
 ### Building SOEM library 
 ```bash
 git clone https://github.com/OpenEtherCATsociety/SOEM
+```
+Replace `STATIC` with `SHARED` on line 72 in CMakeList.txt, it should look like the code block below,
+```
+add_library(soem SHARED
+  ${SOEM_SOURCES}
+  ${OSAL_SOURCES}
+  ${OSHW_SOURCES}
+  ${OSHW_EXTRA_SOURCES})
+target_link_libraries(soem ${OS_LIBS})
+```
+
+Continue building steps:
+```
 cd SOEM
 mkdir build
 cd build
@@ -37,6 +53,7 @@ make
 ### Building robif2b library 
 ```bash
 cd robif2b
+mkdir build && cd build
 cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install ..
 cmake -DCMAKE_C_FLAGS="-I<path to install your folder>/install/include" -DENABLE_ETHERCAT=ON -DENABLE_KELO=ON ..
 ```
@@ -44,7 +61,6 @@ cmake -DCMAKE_C_FLAGS="-I<path to install your folder>/install/include" -DENABLE
 ### How to get active wheels (slaves) indexes:
 ```bash
 cd SOEM/build/test/linux/slaveinfo
-
 sudo ./slaveinfo <your-ethernet-port-id>
 ```
 [FYI: get the ethernet port id by running `ifconfig` or `ip a`]
