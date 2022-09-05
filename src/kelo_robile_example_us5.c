@@ -392,31 +392,31 @@ int main(int argc, char *argv[])
         {
             if (state_machine.is_wheel_align == false)
             {
-                printf("WHEEL");
+                printf("WHEEL\n");
                 wheel_alignment(angle, setpoint);
             }
             else if (state_machine.is_base_align == false && state_machine.is_wheel_align == true)
             {
                 state_machine.current_state = BASED_ALIGN;
-                printf("BASE");
+                printf("BASE\n");
                 based_alignment();
             }
             else if (state_machine.is_base_align == true && state_machine.isStop == false)
             {
                 state_machine.current_state = RAMP;
-                printf("RAMP");
+                printf("RAMP\n");
                 ramp();
             }
             else if (state_machine.isStop == true)
             {
                 state_machine.current_state = STOP;
-                printf("STOP");
+                printf("STOP\n");
                 stop();
             }
             else
             {
                 state_machine.current_state = STOP;
-                printf("STOP");
+                printf("STOP\n");
                 stop(); // stop when the robot is in seraching mode (unidentify state)
             }
         }
