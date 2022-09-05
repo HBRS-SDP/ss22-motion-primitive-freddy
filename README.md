@@ -25,6 +25,7 @@ The aim of the project is performing a controlled movement over the ramp using m
 
 
 #### [**TODO 1: how to create an install folder (where we keep all SOEM files)?]
+#### [**TODO 2: instructions for WS21 ?]
 
 
 ### Building SOEM library 
