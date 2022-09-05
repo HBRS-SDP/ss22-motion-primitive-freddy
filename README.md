@@ -14,6 +14,14 @@ The aim of the project is performing a controlled movement over the ramp using m
   You can find videos regarding the project <a href="https://drive.google.com/drive/folders/1rVMj4RdJPmCHwqase1NZHOby6o1TtAJh?usp=sharing">here</a>!
 </p>
 
+
+<p align="center">
+  Project milestone deliverables can be found <a href="https://drive.google.com/drive/u/3/folders/1boct6apoQLtNgNKWaS_PBlGO9Hr4Donh">here</a>!
+</p>
+
+
+
+
 ## Getting started
 
 ### Required library
