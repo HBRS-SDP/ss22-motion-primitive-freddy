@@ -47,8 +47,8 @@ Continue building steps:
 cd SOEM
 mkdir build
 cd build
-cmake ..
-make
+cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install ..
+make install
 ```
 
 ### Building robif2b library 
