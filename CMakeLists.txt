@@ -8,6 +8,19 @@ include(GNUInstallDirs)
 
 set(CMAKE_INSTALL_DIR ${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME})
 
+
+
+add_executable(us1 
+  src/kelo_robile_example_us1.c
+)
+target_link_libraries(us1
+  robif2b::kelo
+  robif2b::ethercat
+  kelo_sdp::robile_kinematics
+  m
+)
+
+
 add_executable(us2 
   src/kelo_robile_example_us2.c
 )
