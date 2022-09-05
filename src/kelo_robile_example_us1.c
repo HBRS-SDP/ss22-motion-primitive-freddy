@@ -9,8 +9,14 @@
 #include <robif2b/functions/kelo_drive.h>
 #include <robif2b/functions/kelo_power_board.h>
 #include <PlatformToWheelInverseKinematicsSolver.h>
+#include <KELORobotKinematics.h>
+#include <SmartWheelKinematics.h>
 
-static long timespec_to_usec(const struct timespec *t)
+#include <gsl/gsl_matrix.h>
+#include <gsl/gsl_matrix_double.h>
+
+static long
+timespec_to_usec(const struct timespec *t)
 {
     const int NSEC_IN_USEC = 1000;
     const int USEC_IN_SEC = 1000000;
@@ -85,14 +91,14 @@ int main(int argc, char *argv[])
 
     // Configuration
     state.num_drives = NUM_DRIVES;
-    state.time.cycle_time_exp = 1000;  // [us]
-    state.ecat.ethernet_if = "enp5s0"; // Put your ethernet interface here
+    state.time.cycle_time_exp = 1000; // [us]
+    state.ecat.ethernet_if = "enp5s0";
     state.ecat.num_exposed_slaves = NUM_SLAVES;
     state.ecat.slave_idx[0] = 1;
-    state.ecat.slave_idx[1] = 3; // 3
-    state.ecat.slave_idx[2] = 5; // 5
-    state.ecat.slave_idx[3] = 7; // 7
-    state.ecat.slave_idx[4] = 9; // 9
+    state.ecat.slave_idx[1] = 5; // 3
+    state.ecat.slave_idx[2] = 7; // 5
+    state.ecat.slave_idx[3] = 9; // 7
+    state.ecat.slave_idx[4] = 3; // 9
 
     for (int i = 0; i < NUM_DRIVES; i++)
     {
@@ -257,89 +263,244 @@ int main(int argc, char *argv[])
     int stop_wheel_counter[4] = {0, 0, 0, 0};
     bool isAligned = false;
     double error_margin = 0.07;      // radians
-    double motor_torque_value = 1.7; // Nm/A
+    double motor_torque_value = 1.5; // Nm/A
 
     // double thrd_neg_x[4] = {2.10+pi, 0.33, 2.94+pi, 0.6+pi};
     // double thrd_pos_y[4] = {2.10+pi/2, 3.47+pi/2, 2.94+pi/2, 0.6+pi/2};
     //  double thrd_neg_y[4] = {2.10+1.5*pi, 3.47+1.5*pi, 2.94+1.5*pi, 0.6+1.5*pi};
     // double thrd_neg_y[4] = {0.53, 1.9, 1.37, 0.6+1.5*pi};
 
+    /**
+     * Integrating WS21 KELO_SDP code into this program
+     ****************************************************
+     ****************************************************
+     **/
+
+    /**
+     * @brief initialising pointers to variables used for solving the problem of inverse kinematics
+     *
+     **/
+
+    int cnt = 0;
+    const unsigned int N = 3;
+    const unsigned int M = 8;
+    double motor_const = 3.5714; // units: (Ampere/Newton-meter)
+    gsl_matrix *A = gsl_matrix_alloc(N, M);
+    gsl_matrix *A_inv_T = gsl_matrix_alloc(M, N);
+    gsl_matrix *A_tmp = gsl_matrix_alloc(N, M);
+    gsl_matrix *A_inv_T_tmp = gsl_matrix_alloc(M, N);
+    gsl_vector *work = gsl_vector_alloc(N);
+    gsl_matrix *W = gsl_matrix_alloc(N, N);
+    gsl_matrix *K = gsl_matrix_alloc(M, M);
+    gsl_vector *u = gsl_vector_alloc(N);
+    gsl_matrix *V = gsl_matrix_alloc(N, N);
+    gsl_matrix *u_inv = gsl_matrix_alloc(N, N);
+    gsl_matrix *b = gsl_matrix_alloc(N, 1);
+    gsl_matrix *b_verify = gsl_matrix_alloc(N, 1);
+
+    /**
+     * @brief setting input platform force values
+     *
+     */
+    gsl_matrix_set(b, 0, 0, 40.); // force is set in X-direction
+    gsl_matrix_set(b, 1, 0, 0.);  // force is set in Y-direction
+    gsl_matrix_set(b, 2, 0, 0.);  // moment is set in anti-clockwise direction
+
+    /**
+     * @brief setting the weght matrix
+     *
+     */
+    size_t i;
+    for (i = 0; i < M; i++)
+    {
+
+        gsl_matrix_set(K, i, i, 1.0);
+        if (i < N)
+        {
+            gsl_matrix_set(W, i, i, 1.0);
+        }
+    }
+
+    /**
+     * @brief setting number of iterations until which the force has to be applied
+     *
+     */
+    double pivot_angles[4];
+    double pivot_velocity[4];
+    double wheel_torques[8];
+    double wheel_velocity[8];
+    double wheel_current[8];
+    double imu_ang_vel[12]; // x,y,z for each wheel unit
+    double imu_lin_acc[12]; // x,y,z for each wheel unit
+    bool debug = true;
+
+    // write values in pivot_angles array
+    for (int i = 0; i < 4; i++)
+    {
+        pivot_angles[i] = state.kelo_msr.pvt_pos[i];
+    }
+
+    /**
+     * @brief finding wheel torques for each iteration parameterised by pivot angles
+     *
+     */
+    functions_main(wheel_torques,
+                   pivot_angles,
+                   b,
+                   b_verify,
+                   A,
+                   A_inv_T,
+                   A_tmp,
+                   A_inv_T_tmp,
+                   work,
+                   W,
+                   K,
+                   u,
+                   V,
+                   u_inv,
+                   M,
+                   N,
+                   debug);
+
+    // remove this variable, it's for debug purposes only
+    double temp_v = 1.5;
+
     while (true)
     {
         if (state.ecat.error_code < 0)
             return -1;
 
-        for (int i = 0; i < NUM_DRIVES; i++)
-        {
-            if (isAligned == false && setpoint[i] < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i] + 3.14)
-            {
-                if (stop_wheel_counter[2] == 1 && i == 2)
-                {
-                    printf("!!!wheel unit 2 stopped\n");
-                    state.kelo_cmd.trq[4] = 0.00;
-                    state.kelo_cmd.trq[5] = 0.00;
-                }
-                else
-                {
-                    // for index 2 change the motor torque value to 1.2
-                    // if (i == 2)
-                    // {
-                    //     state.kelo_cmd.trq[i] = motor_torque_value;
-                    // }
-                    // else
-                    // {
-                    //     state.kelo_cmd.trq[i] = 0.00;
-                    // }
+        // for (int i = 0; i < NUM_DRIVES; i++)
+        // {
+        //     if (isAligned == false && setpoint[i] < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i] + 3.14)
+        //     {
+        //         if (stop_wheel_counter[2] == 1 && i == 2)
+        //         {
+        //             printf("!!!wheel unit 2 stopped\n");
+        //             state.kelo_cmd.trq[4] = 0.00;
+        //             state.kelo_cmd.trq[5] = 0.00;
+        //         }
+        //         else
+        //         {
+        //             // for index 2 change the motor torque value to 1.2
+        //             // if (i == 2)
+        //             // {
+        //             //     state.kelo_cmd.trq[i] = motor_torque_value;
+        //             // }
+        //             // else
+        //             // {
+        //             //     state.kelo_cmd.trq[i] = 0.00;
+        //             // }
 
-                    state.kelo_cmd.trq[2 * i] = motor_torque_value; // clockwise
-                    state.kelo_cmd.trq[2 * i + 1] = motor_torque_value;
-                    printf("!!!CLOCKWISE %d\n", i);
-                }
+        //             state.kelo_cmd.trq[2 * i] = motor_torque_value; // clockwise
+        //             state.kelo_cmd.trq[2 * i + 1] = motor_torque_value;
+        //             printf("!!!CLOCKWISE %d\n", i);
+        //         }
+        //     }
+        //     else
+        //     {
+
+        //         if (isAligned == false)
+        //         {
+
+        //             if (stop_wheel_counter[2] == 1 && i == 2)
+        //             {
+        //                 printf("!!!wheel unit 2 stopped\n");
+        //                 state.kelo_cmd.trq[4] = 0.00;
+        //                 state.kelo_cmd.trq[5] = 0.00;
+        //             }
+        //             else
+        //             {
+
+        //                 state.kelo_cmd.trq[2 * i] = -motor_torque_value; // counterclockwise
+        //                 state.kelo_cmd.trq[2 * i + 1] = -motor_torque_value;
+        //                 printf("!!!ANTI-CLOCKWISE %d\n", i);
+        //             }
+        //         }
+        //     }
+
+        //     if (setpoint[i] - error_margin < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i] + error_margin)
+        //     {
+        //         printf("!!!wheel unit %d stopped\n", i);
+        //         stop_wheel_counter[i] = 1;
+        //         state.kelo_cmd.trq[2 * i] = 0.00;
+        //         state.kelo_cmd.trq[2 * i + 1] = 0.00;
+        //     }
+        //     else
+        //     {
+        //         stop_wheel_counter[i] = 0;
+        //         isAligned = false;
+        //     }
+        // }
+
+        // if (stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 1 && stop_wheel_counter[3] == 1)
+        // {
+        //     printf("\n*********");
+        //     printf("\nAll wheels are aligned!!!!!!");
+        //     printf("\n*********\n\n");
+        //     isAligned = true;
+        //     // break;
+        // }
+
+        printf("\n*********");
+        // print wheel torques
+        int j = 2;
+
+        // mapping from WS21 to robif2b
+        // ws21:    0,1,2,3,4,5,6,7
+        // robif2b: 0,1,2,3,4,5,6,7
+        /*
+            ws21 -> robif2b
+            0, 1 -> 2, 3
+            2, 3 -> 4, 5
+            4, 5 -> 6, 7
+            6, 7 -> 0, 1
+        */
+
+        for (int i = 0; i < 4; i++)
+        {
+
+            printf("\nwheel unit %d torque: %f", i, wheel_torques[2 * i]);
+            printf("\nwheel unit %d torque: %f", i, wheel_torques[2 * i + 1]);
+            // printf(wheel_torques[2 * i]); // units: (rad/sec)
+            // printf(motor_const * wheel_torques[2 * i + 1]);
+            // state.kelo_cmd.trq[0] = motor_const * wheel_torques[2 * i];
+            // state.kelo_cmd.trq[1] = motor_const * wheel_torques[2 * i + 1];
+            state.kelo_cmd.trq[2] = wheel_torques[0];
+            state.kelo_cmd.trq[3] = wheel_torques[1];
+            // state.kelo_cmd.trq[2] = 0.5;
+            // state.kelo_cmd.trq[3] = -0.5;
+
+            // mapping from WS21 to robif2b
+            /*
+                ws21 -> robif2b
+                0, 1 -> 2, 3
+                2, 3 -> 4, 5
+                4, 5 -> 6, 7
+                6, 7 -> 0, 1
+            */
+
+            if (i < 3)
+            {
+                j += 2;
             }
             else
             {
-
-                if (isAligned == false)
-                {
-
-                    if (stop_wheel_counter[2] == 1 && i == 2)
-                    {
-                        printf("!!!wheel unit 2 stopped\n");
-                        state.kelo_cmd.trq[4] = 0.00;
-                        state.kelo_cmd.trq[5] = 0.00;
-                    }
-                    else
-                    {
-
-                        state.kelo_cmd.trq[2 * i] = -motor_torque_value; // counterclockwise
-                        state.kelo_cmd.trq[2 * i + 1] = -motor_torque_value;
-                        printf("!!!ANTI-CLOCKWISE %d\n", i);
-                    }
-                }
-            }
-
-            if (setpoint[i] - error_margin < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i] + error_margin)
-            {
-                printf("!!!wheel unit %d stopped\n", i);
-                stop_wheel_counter[i] = 1;
-                state.kelo_cmd.trq[2 * i] = 0.00;
-                state.kelo_cmd.trq[2 * i + 1] = 0.00;
-            }
-            else
-            {
-                stop_wheel_counter[i] = 0;
-                isAligned = false;
+                j = 0;
             }
         }
 
-        if (stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 1 && stop_wheel_counter[3] == 1)
-        {
-            printf("\n*********");
-            printf("\nAll wheels are aligned!!!!!!");
-            printf("\n*********\n\n");
-            isAligned = true;
-            // break;
-        }
+        // printf("Linear Acceleration : %f \n", state.kelo_msr.imu_lin_acc[0]);
+        // printf("Angular Velocity : %f \n", state.kelo_msr.imu_ang_vel[0]);
+
+        // state.kelo_cmd.trq[0] = -wheel_torques[0]; // 0.1
+        // state.kelo_cmd.trq[1] = wheel_torques[1];  // 0.2
+        // state.kelo_cmd.trq[2] = -wheel_torques[2]; // 1.1
+        // state.kelo_cmd.trq[3] = wheel_torques[3];  // 1.2
+        // state.kelo_cmd.trq[4] = -wheel_torques[4]; // 2.1
+        // state.kelo_cmd.trq[5] = wheel_torques[5];  // 2.2
+        // state.kelo_cmd.trq[6] = -wheel_torques[6]; // 3.1
+        // state.kelo_cmd.trq[7] = wheel_torques[7];
 
         clock_gettime(CLOCK_MONOTONIC, &state.time.cycle_start);
         robif2b_ethercat_update(&ecat);
