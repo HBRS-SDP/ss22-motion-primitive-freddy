@@ -21,8 +21,8 @@ static long timespec_to_usec(const struct timespec *t)
 #define NUM_DRIVES 4
 #define NUM_SLAVES 5
 
-double ERROR_MARGIN = 0.07;      // radians
-double MOTOR_TORQUE_VALUE = 1.7; // Nm/A (only for wheel alignment)
+double ERROR_MARGIN = 0.05;      // radians
+double MOTOR_TORQUE_VALUE = 1.5; // Nm/A (only for wheel alignment)
 
 static struct
 {
@@ -175,7 +175,14 @@ void based_alignment()
     state.kelo_cmd.trq[5] = 0;
     state.kelo_cmd.trq[6] = 0;
     state.kelo_cmd.trq[7] = 0;
-    state_machine.is_base_align = true; // testing state machine purpose
+    if (state.kelo_msr.whl_vel[0] < 0.6 && state.kelo_msr.whl_vel[1] < 0.6 && state.kelo_msr.whl_vel[2] < 0.6 && state.kelo_msr.whl_vel[3] < 0.6)
+    {
+        state_machine.is_base_align = true;
+    }
+    else
+    {
+        state_machine.is_base_align = false;
+    }
 }
 void ramp()
 {
@@ -189,9 +196,9 @@ void ramp()
 void stop()
 {
     state_machine.current_state = STOP;
-    printf("Flags: wheel align:%d,base align:%d,ramp:%d,stop:%d\n",
-           state_machine.is_wheel_align, state_machine.is_base_align, state_machine.is_go_up, state_machine.isStop);
-    printf("Current state: %d \n", state_machine.current_state);
+    // printf("Flags: wheel align:%d,base align:%d,ramp:%d,stop:%d\n",
+    //        state_machine.is_wheel_align, state_machine.is_base_align, state_machine.is_go_up, state_machine.isStop);
+    // printf("Current state: %d \n", state_machine.current_state);
     state.kelo_cmd.trq[0] = 0;
     state.kelo_cmd.trq[1] = 0;
     state.kelo_cmd.trq[2] = 0;
@@ -209,7 +216,7 @@ int main(int argc, char *argv[])
     // Configuration
     state.num_drives = NUM_DRIVES;
     state.time.cycle_time_exp = 1000; // [us]
-    state.ecat.ethernet_if = "enp61s0";
+    state.ecat.ethernet_if = "enp5s0";
     state.ecat.num_exposed_slaves = NUM_SLAVES;
     state.ecat.slave_idx[0] = 1;
     state.ecat.slave_idx[1] = 3; // 3
@@ -399,24 +406,28 @@ int main(int argc, char *argv[])
             {
                 state_machine.current_state = BASED_ALIGN;
                 printf("BASE\n");
+                wheel_alignment(angle, setpoint);
                 based_alignment();
             }
             else if (state_machine.is_base_align == true && state_machine.isStop == false)
             {
                 state_machine.current_state = RAMP;
                 printf("RAMP\n");
+                wheel_alignment(angle, setpoint);
                 ramp();
             }
             else if (state_machine.isStop == true)
             {
                 state_machine.current_state = STOP;
                 printf("STOP\n");
+                wheel_alignment(angle, setpoint);
                 stop();
             }
             else
             {
                 state_machine.current_state = STOP;
                 printf("STOP\n");
+                wheel_alignment(angle, setpoint);
                 stop(); // stop when the robot is in seraching mode (unidentify state)
             }
         }
