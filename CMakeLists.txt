@@ -48,6 +48,7 @@ target_link_libraries(us5
   robif2b::ethercat
   m
 )
+<<<<<<< HEAD
 target_include_directories(us5
   PUBLIC
     $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
@@ -75,6 +76,11 @@ target_include_directories(main
 
 install(
   TARGETS us2 us3 us5 main
+=======
+
+install(
+  TARGETS us2 us3 us5
+>>>>>>> 819891642145871091b17774b052bec54dedafc9
   EXPORT ${PROJECT_NAME}-targets
   LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
   ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}

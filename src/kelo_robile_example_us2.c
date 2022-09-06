@@ -352,11 +352,21 @@ int main(int argc, char *argv[])
         {
 
             printf("drive [id=%i, conn=%i]: "
+<<<<<<< HEAD
                    "w_vel[0]=%5.2f - w_vel[1]=%5.2f - p_pos=%5.2f\n",
                    i, state.ecat.is_connected[i + 1],
                    state.kelo_msr.whl_vel[i * 2 + 0],
                    state.kelo_msr.whl_vel[i * 2 + 1],
                    state.kelo_msr.pvt_pos[i]);
+=======
+                   "w_vel[0]=%5.2f - w_vel[1]=%5.2f - p_pos=%5.2f - w_pos[0]=%5.2f - w_pos[1]=%5.2f\n",
+                   i, state.ecat.is_connected[i + 1],
+                   state.kelo_msr.whl_vel[i * 2 + 0],
+                   state.kelo_msr.whl_vel[i * 2 + 1],
+                   state.kelo_msr.pvt_pos[i],
+                   state.kelo_msr.whl_pos[i * 2 + 0],
+                   state.kelo_msr.whl_pos[i * 2 + 1]);
+>>>>>>> 819891642145871091b17774b052bec54dedafc9
             // double pvangle[NUM_DRIVES] = state.kelo_msr.pvt_pos[i]
         }
 
