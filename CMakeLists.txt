@@ -48,9 +48,33 @@ target_link_libraries(us5
   robif2b::ethercat
   m
 )
+target_include_directories(us5
+  PUBLIC
+    $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
+    $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
+)
+
+
+
+add_executable(main
+  src/main.c
+  src/wheel_aligement.c
+  src/base_aligement.c
+)
+target_link_libraries(main
+  robif2b::kelo
+  robif2b::ethercat
+  m
+  
+)
+target_include_directories(main
+  PUBLIC
+    $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
+    $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
+)
 
 install(
-  TARGETS us2 us3 us5
+  TARGETS us2 us3 us5 main
   EXPORT ${PROJECT_NAME}-targets
   LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
   ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}

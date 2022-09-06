@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "*.tcc": "c",
+        "bitset": "c",
+        "optional": "c",
+        "functional": "c",
+        "random": "c",
+        "fstream": "c",
+        "istream": "c",
+        "ostream": "c",
+        "sstream": "c",
+        "streambuf": "c",
+        "condition_variable": "c",
+        "robif2b_state.h": "c",
+        "state_machine.h": "c",
+        "ethercat.h": "c",
+        "kelo_power_board.h": "c",
+        "kelo_drive.h": "c",
+        "wheel_ailgment.h": "c",
+        "base_ailgment.h": "c",
+        "base_aligment.h": "c"
+    }
+}

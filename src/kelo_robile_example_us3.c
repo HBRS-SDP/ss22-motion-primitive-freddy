@@ -273,104 +273,18 @@ int main(int argc, char *argv[])
 
     while (true) {
         if (state.ecat.error_code < 0) return -1;
-
-        // for (int i = 0;i<NUM_DRIVES;i++){
-        //     if(isAligned == false && setpoint[i] <  state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i]+3.14){
-        //         state.kelo_cmd.trq[2*i] = 1.3; // clockwise
-        //         state.kelo_cmd.trq[2*i+1] = 1.3;
-        //         printf("!!!CLOCKWISE %d \n",i);
-        //     }
-        //     else{
-
-        //         if (isAligned == false){
-        //             state.kelo_cmd.trq[2*i] = -1.3; //counterclockwise
-        //             state.kelo_cmd.trq[2*i+1] = -1.3;
-        //             printf("!!!ANTI-CLOCKWISE %d stopped\n",i);
-        //         }
-        //     }
-        //     if (setpoint[i]-0.05 < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i]+0.05){ 
-        //         printf("!!!wheel unit %d stopped\n",i);
-        //         stop_wheel_counter[i]=1;
-        //         state.kelo_cmd.trq[2*i] = 0.00;
-        //         state.kelo_cmd.trq[2*i+1] = 0.00;   
-        //     }
-        //     else{
-        //         stop_wheel_counter[i]=0;
-        //         isAligned = false;
-        //     }
-        // }
-
-        // if (stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 1 &&stop_wheel_counter[3] == 1)
-        // {
-        //         printf("All wheels are aligned!!!!!!");        
-        //         isAligned = false;
-        //         // break;
-        // }
-
-
-
         if (isAligned){
-            /*
-            if (inMotion == false){
-                state.kelo_cmd.trq[0] = -0.3;
-                state.kelo_cmd.trq[1] = 0.3; 
-                state.kelo_cmd.trq[2] = -0.3;
-                state.kelo_cmd.trq[3] = 0.3;
-                state.kelo_cmd.trq[4] = -0.3;
-                state.kelo_cmd.trq[5] = 0.3; 
-                state.kelo_cmd.trq[6] = -0.3;
-                state.kelo_cmd.trq[7] = 0.3; 
-                printf("\n Moving FORWARD!!!!! \n");
-            }
-
-            if (fabs(state.kelo_msr.whl_vel[5]) > 2.0){
-                inMotion = true;
-                printf("\n Initial momentom reached!!!!! \n");
-            }
-
-            if (inMotion == true){
-
-                printf("\n I AM STILL MOVING FORWARD!!!!! \n");
-
-                if ((fabs(state.kelo_msr.whl_vel[0]) < 1.0)){
-                    printf("\n Wheel 1 stopppppppeddddddddd!!!!! \n");
-                    state.kelo_cmd.trq[0] = 0.0;
-                    state.kelo_cmd.trq[1] = 0.0; 
-                    state.kelo_cmd.trq[6] = 0.0;
-                    state.kelo_cmd.trq[7] = 0.0; 
-
-                } 
-                if (fabs(state.kelo_msr.whl_vel[2]) < 1.0){
-                    printf("\n Wheel 2 stopppppppeddddddddd!!!!! \n");
-                    state.kelo_cmd.trq[2] = 0.0;
-                    state.kelo_cmd.trq[3] = 0.0;
-                    state.kelo_cmd.trq[4] = 0.0;
-                    state.kelo_cmd.trq[5] = 0.0; 
-                }
-
-                if ((fabs(state.kelo_msr.whl_vel[0]) < 1.0) && (fabs(state.kelo_msr.whl_vel[2]) < 1.0)){
-                    printf("\n $$$$$$$$ Robot is aligned   $$$$$$$$$$$$$$$ \n");
-                    state.kelo_cmd.trq[0] = 0;
-                    state.kelo_cmd.trq[1] = 0; 
-                    state.kelo_cmd.trq[2] = 0;
-                    state.kelo_cmd.trq[3] = 0;
-                    state.kelo_cmd.trq[4] = 0;
-                    state.kelo_cmd.trq[5] = 0; 
-                    state.kelo_cmd.trq[6] = 0;
-                    state.kelo_cmd.trq[7] = 0;
-                }
-            }*/
 
             printf("Linear Acceleration : %f \n", state.kelo_msr.imu_lin_acc[0]);
             printf("Angular Velocity : %f \n", state.kelo_msr.imu_ang_vel[0]);
             state.kelo_cmd.trq[0] = -1.4;      //-1.4
             state.kelo_cmd.trq[1] =  1.4;      // 1.4
-            state.kelo_cmd.trq[2] = -1.4;      //-1.4
-            state.kelo_cmd.trq[3] =  1.4;      // 1.4
-            state.kelo_cmd.trq[4] = -1.4;      //-1.4
-            state.kelo_cmd.trq[5] =  1.4;      // 1.4
-            state.kelo_cmd.trq[6] = -1.4;      //-1.4
-            state.kelo_cmd.trq[7] =  1.4;      // 1.4
+            // state.kelo_cmd.trq[2] = -1.4;      //-1.4
+            // state.kelo_cmd.trq[3] =  1.4;      // 1.4
+            // state.kelo_cmd.trq[4] = -1.4;      //-1.4
+            // state.kelo_cmd.trq[5] =  1.4;      // 1.4
+            // state.kelo_cmd.trq[6] = -1.4;      //-1.4
+            // state.kelo_cmd.trq[7] =  1.4;      // 1.4
 
 
             

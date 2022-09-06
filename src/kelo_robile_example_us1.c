@@ -92,7 +92,7 @@ int main(int argc, char *argv[])
     // Configuration
     state.num_drives = NUM_DRIVES;
     state.time.cycle_time_exp = 1000; // [us]
-    state.ecat.ethernet_if = "enp5s0";
+    state.ecat.ethernet_if = "enp61s0";
     state.ecat.num_exposed_slaves = NUM_SLAVES;
     state.ecat.slave_idx[0] = 1;
     state.ecat.slave_idx[1] = 5; // 3
@@ -302,8 +302,8 @@ int main(int argc, char *argv[])
      * @brief setting input platform force values
      *
      */
-    gsl_matrix_set(b, 0, 0, 40.); // force is set in X-direction
-    gsl_matrix_set(b, 1, 0, 0.);  // force is set in Y-direction
+    gsl_matrix_set(b, 0, 0, 0.); // force is set in X-direction
+    gsl_matrix_set(b, 1, 0, 60.);  // force is set in Y-direction
     gsl_matrix_set(b, 2, 0, 0.);  // moment is set in anti-clockwise direction
 
     /**
@@ -334,33 +334,7 @@ int main(int argc, char *argv[])
     double imu_lin_acc[12]; // x,y,z for each wheel unit
     bool debug = true;
 
-    // write values in pivot_angles array
-    for (int i = 0; i < 4; i++)
-    {
-        pivot_angles[i] = state.kelo_msr.pvt_pos[i];
-    }
-
-    /**
-     * @brief finding wheel torques for each iteration parameterised by pivot angles
-     *
-     */
-    functions_main(wheel_torques,
-                   pivot_angles,
-                   b,
-                   b_verify,
-                   A,
-                   A_inv_T,
-                   A_tmp,
-                   A_inv_T_tmp,
-                   work,
-                   W,
-                   K,
-                   u,
-                   V,
-                   u_inv,
-                   M,
-                   N,
-                   debug);
+  
 
     // remove this variable, it's for debug purposes only
     double temp_v = 1.5;
@@ -369,7 +343,33 @@ int main(int argc, char *argv[])
     {
         if (state.ecat.error_code < 0)
             return -1;
+          // write values in pivot_angles array
+        for (int i = 0; i < 4; i++)
+        {
+            pivot_angles[i] = state.kelo_msr.pvt_pos[i];
+        }
 
+        /**
+         * @brief finding wheel torques for each iteration parameterised by pivot angles
+         *
+         */
+        functions_main(wheel_torques,
+                    pivot_angles,
+                    b,
+                    b_verify,
+                    A,
+                    A_inv_T,
+                    A_tmp,
+                    A_inv_T_tmp,
+                    work,
+                    W,
+                    K,
+                    u,
+                    V,
+                    u_inv,
+                    M,
+                    N,
+                    debug);
         // for (int i = 0; i < NUM_DRIVES; i++)
         // {
         //     if (isAligned == false && setpoint[i] < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i] + 3.14)
@@ -460,17 +460,18 @@ int main(int argc, char *argv[])
         for (int i = 0; i < 4; i++)
         {
 
-            printf("\nwheel unit %d torque: %f", i, wheel_torques[2 * i]);
-            printf("\nwheel unit %d torque: %f", i, wheel_torques[2 * i + 1]);
+            printf("\nwheel unit %d ,wheel: %d, torque: %f", i,2 * i, wheel_torques[2 * i]);
+            printf("\nwheel unit %d ,wheel: %d, torque: %f", i,2 * i+1, wheel_torques[2 * i + 1]);
             // printf(wheel_torques[2 * i]); // units: (rad/sec)
             // printf(motor_const * wheel_torques[2 * i + 1]);
             // state.kelo_cmd.trq[0] = motor_const * wheel_torques[2 * i];
             // state.kelo_cmd.trq[1] = motor_const * wheel_torques[2 * i + 1];
-            state.kelo_cmd.trq[2] = wheel_torques[0];
-            state.kelo_cmd.trq[3] = wheel_torques[1];
+            // state.kelo_cmd.trq[2] = -wheel_torques[1];
+            // state.kelo_cmd.trq[3] = wheel_torques[0];
             // state.kelo_cmd.trq[2] = 0.5;
             // state.kelo_cmd.trq[3] = -0.5;
-
+            state.kelo_cmd.trq[2 *i] = -wheel_torques[2*i+1];
+            state.kelo_cmd.trq[2 *i+1] = wheel_torques[2*i];
             // mapping from WS21 to robif2b
             /*
                 ws21 -> robif2b
@@ -480,14 +481,14 @@ int main(int argc, char *argv[])
                 6, 7 -> 0, 1
             */
 
-            if (i < 3)
-            {
-                j += 2;
-            }
-            else
-            {
-                j = 0;
-            }
+            // if (i < 3)
+            // {
+            //     j += 2;
+            // }
+            // else
+            // {
+            //     j = 0;
+            // }
         }
 
         // printf("Linear Acceleration : %f \n", state.kelo_msr.imu_lin_acc[0]);
