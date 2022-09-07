@@ -273,6 +273,9 @@ int main(int argc, char *argv[])
 
     while (true) {
         if (state.ecat.error_code < 0) return -1;
+<<<<<<< HEAD
+        if (isAligned){
+=======
 
         // for (int i = 0;i<NUM_DRIVES;i++){
         //     if(isAligned == false && setpoint[i] <  state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i]+3.14){
@@ -360,17 +363,27 @@ int main(int argc, char *argv[])
                     state.kelo_cmd.trq[7] = 0;
                 }
             }*/
+>>>>>>> 819891642145871091b17774b052bec54dedafc9
 
             printf("Linear Acceleration : %f \n", state.kelo_msr.imu_lin_acc[0]);
             printf("Angular Velocity : %f \n", state.kelo_msr.imu_ang_vel[0]);
             state.kelo_cmd.trq[0] = -1.4;      //-1.4
             state.kelo_cmd.trq[1] =  1.4;      // 1.4
+<<<<<<< HEAD
+            // state.kelo_cmd.trq[2] = -1.4;      //-1.4
+            // state.kelo_cmd.trq[3] =  1.4;      // 1.4
+            // state.kelo_cmd.trq[4] = -1.4;      //-1.4
+            // state.kelo_cmd.trq[5] =  1.4;      // 1.4
+            // state.kelo_cmd.trq[6] = -1.4;      //-1.4
+            // state.kelo_cmd.trq[7] =  1.4;      // 1.4
+=======
             state.kelo_cmd.trq[2] = -1.4;      //-1.4
             state.kelo_cmd.trq[3] =  1.4;      // 1.4
             state.kelo_cmd.trq[4] = -1.4;      //-1.4
             state.kelo_cmd.trq[5] =  1.4;      // 1.4
             state.kelo_cmd.trq[6] = -1.4;      //-1.4
             state.kelo_cmd.trq[7] =  1.4;      // 1.4
+>>>>>>> 819891642145871091b17774b052bec54dedafc9
 
 
             
