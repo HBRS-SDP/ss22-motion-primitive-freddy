@@ -6,7 +6,7 @@ extern "C" {
 #endif
 
 void base_alignment();
-void base_monitor();
+void base_monitor(double*,int* stop_wheel_counter);
 
 #ifdef __cplusplus
 }
