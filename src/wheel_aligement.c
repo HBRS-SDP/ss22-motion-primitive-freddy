@@ -55,6 +55,8 @@ void wheel_alignment(double target_angle, double setpoint[4],int* stop_wheel_cou
         else{
             stop_wheel_counter[i] = 0;
         }
+        printf("In source: %f,%f \n",state.kelo_cmd.trq[2*i],state.kelo_cmd.trq[2*i+1]);
+
     }
 }
 void wheel_monitor(int stop_wheel_counter[4]){
@@ -62,4 +64,5 @@ void wheel_monitor(int stop_wheel_counter[4]){
         printf("All wheels are aligned!!!!!!");
         current_state = STATE_BASE_ALIGN;
     }
+    else current_state = STATE_WHEEL_ALIGN;
 }

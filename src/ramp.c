@@ -11,7 +11,7 @@ enum state_machine current_state;
 struct state;
 
 void ramp(){
-
+    int temp =0;
 }
 void ramp_monitor(){
 

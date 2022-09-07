@@ -12,7 +12,7 @@
 extern "C" {
 #endif
 
-static struct
+struct
 {
     int num_drives;
     struct
@@ -68,7 +68,7 @@ static struct
     } kelo_cmd;
 } state;
 
-extern struct state robif_state;
+extern struct state;
 
 #ifdef __cplusplus
 }

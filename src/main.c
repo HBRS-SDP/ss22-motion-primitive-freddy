@@ -11,6 +11,7 @@
 #include <robif2b_state.h>
 #include <wheel_aligment.h>
 #include <base_aligment.h>
+#include <ramp.h>
 
 // #define NUM_DRIVES 4
 // #define NUM_SLAVES 5
@@ -142,7 +143,7 @@ int main(int argc, char *argv[]){
     char *ptr;
     int angle = strtol(argv[1], &ptr, 10);
     double setpoint[4] = {0, 0, 0, 0};
-    int stop_wheel_counter[4];
+    int stop_wheel_counter[4] = {0,0,0,0};
     current_state = STATE_WHEEL_ALIGN;
 
     // set point def
@@ -183,13 +184,6 @@ int main(int argc, char *argv[]){
     {
         if (state.ecat.error_code < 0)
             return -1;
-
-        clock_gettime(CLOCK_MONOTONIC, &state.time.cycle_start);
-        robif2b_ethercat_update(&ecat);
-        robif2b_kelo_drive_encoder_update(&drive_enc);
-        robif2b_kelo_drive_imu_update(&imu);
-        robif2b_kelo_drive_actuator_update(&wheel_act);
-        robif2b_kelo_power_board_update(&power_board);
 
     /*
         if (state_machine.current_state == START)
@@ -254,13 +248,21 @@ int main(int argc, char *argv[]){
                 state.kelo_msr.bat_lvl);
         printf("\n");
         */
+       wheel_monitor(stop_wheel_counter);
+       //base_monitor();
+       //ramp_monitor();
+       printf("stop wheel counter: %d , %d ,%d ,%d \n",stop_wheel_counter[0],stop_wheel_counter[1],stop_wheel_counter[2],stop_wheel_counter[3]);
+       printf("current state: %d\n",current_state);
        switch (current_state)
        {
         case STATE_WHEEL_ALIGN:
            wheel_alignment(angle,setpoint,stop_wheel_counter);
+            for (int i =0;i<4;i++){
+                printf("In main: %f,%f \n",state.kelo_cmd.trq[2*i],state.kelo_cmd.trq[2*i+1]);
+            }   
            break;
         case STATE_BASE_ALIGN:
-           base_alignment();
+           //base_alignment();
            break;
         case STATE_RAMP:
            //ramp();
@@ -272,6 +274,7 @@ int main(int argc, char *argv[]){
             stop();
             break;
        }
+       
         clock_gettime(CLOCK_MONOTONIC, &state.time.cycle_end);
         state.time.cycle_time_msr = timespec_to_usec(&state.time.cycle_end) - timespec_to_usec(&state.time.cycle_start);
 
@@ -279,6 +282,15 @@ int main(int argc, char *argv[]){
         {
             usleep(state.time.cycle_time_exp - state.time.cycle_time_msr);
         }
+
+
+        clock_gettime(CLOCK_MONOTONIC, &state.time.cycle_start);
+
+        robif2b_ethercat_update(&ecat);
+        robif2b_kelo_drive_encoder_update(&drive_enc);
+        robif2b_kelo_drive_imu_update(&imu);
+        robif2b_kelo_drive_actuator_update(&wheel_act);
+        robif2b_kelo_power_board_update(&power_board);
     }
 
     robif2b_kelo_drive_actuator_stop(&wheel_act);

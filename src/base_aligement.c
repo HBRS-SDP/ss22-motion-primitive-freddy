@@ -9,7 +9,7 @@
 #include <robif2b_state.h>
 
 enum state_machine current_state;
-struct state;
+// struct state;
 
 
 void base_alignment()
@@ -28,5 +28,6 @@ void base_alignment()
 
 void base_monitor(){
     /*some condition*/
-    current_state = STATE_RAMP;
+    //current_state = STATE_RAMP;
+    current_state = STATE_STOP;
 }

@@ -59,6 +59,7 @@ add_executable(main
   src/main.c
   src/wheel_aligement.c
   src/base_aligement.c
+  src/ramp.c
 )
 target_link_libraries(main
   robif2b::kelo
