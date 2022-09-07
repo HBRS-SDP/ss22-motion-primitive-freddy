@@ -9,7 +9,7 @@
 
 
 double ERROR_MARGIN = 0.07;      // radians
-double MOTOR_TORQUE_VALUE = 1.7; // Nm/A (only for wheel alignment)
+double MOTOR_TORQUE_VALUE = 0.8; // Nm/A (only for wheel alignment)
 
 
 enum state_machine current_state;
@@ -18,14 +18,12 @@ struct state;
 void wheel_alignment(double target_angle, double setpoint[4],int* stop_wheel_counter){
 
     for (int i = 0; i <= 4; i++) stop_wheel_counter[i] = 0;
-
-    // int stop_wheel_counter[4] = {0, 0, 0, 0};
     for (int i = 0; i < NUM_DRIVES; i++){
         if (setpoint[i] < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i] + 3.14){
             if (stop_wheel_counter[2] == 1 && i == 2){
                 printf("!!!wheel unit 2 stopped\n");
-                state.kelo_cmd.trq[4] = 0.00;
-                state.kelo_cmd.trq[5] = 0.00;
+                // state.kelo_cmd.trq[4] = 0.00;
+                // state.kelo_cmd.trq[5] = 0.00;
             }
             else{
                 state.kelo_cmd.trq[2 * i] = MOTOR_TORQUE_VALUE; // clockwise
@@ -36,8 +34,8 @@ void wheel_alignment(double target_angle, double setpoint[4],int* stop_wheel_cou
         else{
             if (stop_wheel_counter[2] == 1 && i == 2){
                 printf("!!!wheel unit 2 stopped\n");
-                state.kelo_cmd.trq[4] = 0.00;
-                state.kelo_cmd.trq[5] = 0.00;
+                // state.kelo_cmd.trq[4] = 0.00;
+                // state.kelo_cmd.trq[5] = 0.00;
             }
             else{
                 state.kelo_cmd.trq[2 * i] = -MOTOR_TORQUE_VALUE; // counterclockwise
@@ -49,13 +47,13 @@ void wheel_alignment(double target_angle, double setpoint[4],int* stop_wheel_cou
         if (setpoint[i] - ERROR_MARGIN < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i] + ERROR_MARGIN){
             printf("!!!wheel unit %d stopped\n", i);
             stop_wheel_counter[i] = 1;
-            state.kelo_cmd.trq[2 * i] = 0.00;
-            state.kelo_cmd.trq[2 * i + 1] = 0.00;
+            // state.kelo_cmd.trq[2 * i] = 0.00;
+            // state.kelo_cmd.trq[2 * i + 1] = 0.00;
         }
         else{
             stop_wheel_counter[i] = 0;
         }
-        printf("In source: %f,%f \n",state.kelo_cmd.trq[2*i],state.kelo_cmd.trq[2*i+1]);
+        // printf("In source: %f,%f \n",state.kelo_cmd.trq[2*i],state.kelo_cmd.trq[2*i+1]);
 
     }
 }

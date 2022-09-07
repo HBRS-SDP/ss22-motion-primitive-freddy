@@ -12,7 +12,7 @@
 #include <wheel_aligment.h>
 #include <base_aligment.h>
 #include <ramp.h>
-
+#include <behaviour_connection.h>
 // #define NUM_DRIVES 4
 // #define NUM_SLAVES 5
 
@@ -249,20 +249,18 @@ int main(int argc, char *argv[]){
         printf("\n");
         */
        wheel_monitor(stop_wheel_counter);
-       //base_monitor();
+       base_monitor(setpoint,stop_wheel_counter);
        //ramp_monitor();
-       printf("stop wheel counter: %d , %d ,%d ,%d \n",stop_wheel_counter[0],stop_wheel_counter[1],stop_wheel_counter[2],stop_wheel_counter[3]);
        printf("current state: %d\n",current_state);
        switch (current_state)
        {
         case STATE_WHEEL_ALIGN:
            wheel_alignment(angle,setpoint,stop_wheel_counter);
-            for (int i =0;i<4;i++){
-                printf("In main: %f,%f \n",state.kelo_cmd.trq[2*i],state.kelo_cmd.trq[2*i+1]);
-            }   
+  
            break;
         case STATE_BASE_ALIGN:
-           //base_alignment();
+           base_alignment();
+
            break;
         case STATE_RAMP:
            //ramp();
