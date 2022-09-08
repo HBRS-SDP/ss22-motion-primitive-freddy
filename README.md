@@ -75,17 +75,7 @@ sudo ./slaveinfo <your-ethernet-port-id>
 
 [FYI: get the ethernet port id by running `ifconfig` or `ip a`]
 
-## How to make any library as a package:
-1. Create a CMakeLists.txt file. Main features of the file are: 
-  - **find_package** finds for the file or library mentioned in the closed parenthesis.<br> **Example:** `find_package(robif2b REQUIRED)`
-  - **add_executable** adds the executable target <name> needs to be built from the listed source files. <br>
-**Example:** `add_executable(us2 src/kelo_robile_example_us2.c)`
-  - **target_link_libraries** takes the target and adds dependency. <br> **Example:** `target_link_libraries(us2 robif2b::kelo m)`
-2. Commands to build: <br>
-- Build ws21-kelo-500-motion-control
-
 ## Running the code
-
 ```
 git clone --recursive https://github.com/HBRS-SDP/ss22-motion-primitive-freddy.git
 mkdir build && cd build
@@ -94,6 +84,7 @@ make
 ```
 
 ## How to make any library as a package:
+
 1. Create a CMakeLists.txt file. Main features of the file are: 
   - **find_package** finds for the file or library mentioned in the closed parenthesis.<br> **Example:** `find_package(robif2b REQUIRED)`
   - **add_executable** adds the executable target <name> needs to be built from the listed source files. <br>
@@ -101,10 +92,25 @@ make
   - **target_link_libraries** takes the target and adds dependency. <br> **Example:** `target_link_libraries(us2 robif2b::kelo m)`
 2. Commands to build: <br>
 - Build ws21-kelo-500-motion-control
-
+``` 
+ cd ws21-kelo-500-motion-control/KELO_SDP/build
+ cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install -DENABLE_PACKAGE_REGISTRY=on ..
+ make
 ```
-TODO: instructions for making a library 
-```
+ - Build robif2b
+ ``` 
+ cd robif2b/build
+ cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install -DENABLE_PACKAGE_REGISTRY=on -DENABLE_ETHERCAT=on -DENABLE_KELO=on ..
+ make
+``` 
+ - Build ss22-motion-primitive-freddy
+  
+ ``` 
+ cd ss22-motion-primitive-freddy
+ mkdir build
+ cmake ..
+ make
+``` 
 
 ## User stories / TODO
 
