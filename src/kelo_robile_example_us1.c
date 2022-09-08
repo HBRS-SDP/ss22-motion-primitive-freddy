@@ -92,7 +92,7 @@ int main(int argc, char *argv[])
     // Configuration
     state.num_drives = NUM_DRIVES;
     state.time.cycle_time_exp = 1000; // [us]
-    state.ecat.ethernet_if = "enp61s0";
+    state.ecat.ethernet_if = "enp5s0";
     state.ecat.num_exposed_slaves = NUM_SLAVES;
     state.ecat.slave_idx[0] = 1;
     state.ecat.slave_idx[1] = 5; // 3
@@ -302,8 +302,8 @@ int main(int argc, char *argv[])
      * @brief setting input platform force values
      *
      */
-    gsl_matrix_set(b, 0, 0, 0.); // force is set in X-direction
-    gsl_matrix_set(b, 1, 0, 60.);  // force is set in Y-direction
+    gsl_matrix_set(b, 0, 0, 0.);  // force is set in X-direction
+    gsl_matrix_set(b, 1, 0, 80.); // force is set in Y-direction
     gsl_matrix_set(b, 2, 0, 0.);  // moment is set in anti-clockwise direction
 
     /**
@@ -334,8 +334,6 @@ int main(int argc, char *argv[])
     double imu_lin_acc[12]; // x,y,z for each wheel unit
     bool debug = true;
 
-  
-
     // remove this variable, it's for debug purposes only
     double temp_v = 1.5;
 
@@ -343,7 +341,7 @@ int main(int argc, char *argv[])
     {
         if (state.ecat.error_code < 0)
             return -1;
-          // write values in pivot_angles array
+        // write values in pivot_angles array
         for (int i = 0; i < 4; i++)
         {
             pivot_angles[i] = state.kelo_msr.pvt_pos[i];
@@ -354,97 +352,26 @@ int main(int argc, char *argv[])
          *
          */
         functions_main(wheel_torques,
-                    pivot_angles,
-                    b,
-                    b_verify,
-                    A,
-                    A_inv_T,
-                    A_tmp,
-                    A_inv_T_tmp,
-                    work,
-                    W,
-                    K,
-                    u,
-                    V,
-                    u_inv,
-                    M,
-                    N,
-                    debug);
-        // for (int i = 0; i < NUM_DRIVES; i++)
-        // {
-        //     if (isAligned == false && setpoint[i] < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i] + 3.14)
-        //     {
-        //         if (stop_wheel_counter[2] == 1 && i == 2)
-        //         {
-        //             printf("!!!wheel unit 2 stopped\n");
-        //             state.kelo_cmd.trq[4] = 0.00;
-        //             state.kelo_cmd.trq[5] = 0.00;
-        //         }
-        //         else
-        //         {
-        //             // for index 2 change the motor torque value to 1.2
-        //             // if (i == 2)
-        //             // {
-        //             //     state.kelo_cmd.trq[i] = motor_torque_value;
-        //             // }
-        //             // else
-        //             // {
-        //             //     state.kelo_cmd.trq[i] = 0.00;
-        //             // }
-
-        //             state.kelo_cmd.trq[2 * i] = motor_torque_value; // clockwise
-        //             state.kelo_cmd.trq[2 * i + 1] = motor_torque_value;
-        //             printf("!!!CLOCKWISE %d\n", i);
-        //         }
-        //     }
-        //     else
-        //     {
-
-        //         if (isAligned == false)
-        //         {
-
-        //             if (stop_wheel_counter[2] == 1 && i == 2)
-        //             {
-        //                 printf("!!!wheel unit 2 stopped\n");
-        //                 state.kelo_cmd.trq[4] = 0.00;
-        //                 state.kelo_cmd.trq[5] = 0.00;
-        //             }
-        //             else
-        //             {
-
-        //                 state.kelo_cmd.trq[2 * i] = -motor_torque_value; // counterclockwise
-        //                 state.kelo_cmd.trq[2 * i + 1] = -motor_torque_value;
-        //                 printf("!!!ANTI-CLOCKWISE %d\n", i);
-        //             }
-        //         }
-        //     }
-
-        //     if (setpoint[i] - error_margin < state.kelo_msr.pvt_pos[i] && state.kelo_msr.pvt_pos[i] < setpoint[i] + error_margin)
-        //     {
-        //         printf("!!!wheel unit %d stopped\n", i);
-        //         stop_wheel_counter[i] = 1;
-        //         state.kelo_cmd.trq[2 * i] = 0.00;
-        //         state.kelo_cmd.trq[2 * i + 1] = 0.00;
-        //     }
-        //     else
-        //     {
-        //         stop_wheel_counter[i] = 0;
-        //         isAligned = false;
-        //     }
-        // }
-
-        // if (stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 1 && stop_wheel_counter[3] == 1)
-        // {
-        //     printf("\n*********");
-        //     printf("\nAll wheels are aligned!!!!!!");
-        //     printf("\n*********\n\n");
-        //     isAligned = true;
-        //     // break;
-        // }
+                       pivot_angles,
+                       b,
+                       b_verify,
+                       A,
+                       A_inv_T,
+                       A_tmp,
+                       A_inv_T_tmp,
+                       work,
+                       W,
+                       K,
+                       u,
+                       V,
+                       u_inv,
+                       M,
+                       N,
+                       debug);
 
         printf("\n*********");
         // print wheel torques
-        int j = 2;
+        // int j = 2;
 
         // mapping from WS21 to robif2b
         // ws21:    0,1,2,3,4,5,6,7
@@ -460,8 +387,8 @@ int main(int argc, char *argv[])
         for (int i = 0; i < 4; i++)
         {
 
-            printf("\nwheel unit %d ,wheel: %d, torque: %f", i,2 * i, wheel_torques[2 * i]);
-            printf("\nwheel unit %d ,wheel: %d, torque: %f", i,2 * i+1, wheel_torques[2 * i + 1]);
+            printf("\nwheel unit %d ,wheel: %d, torque: %f", i, 2 * i, wheel_torques[2 * i]);
+            printf("\nwheel unit %d ,wheel: %d, torque: %f", i, 2 * i + 1, wheel_torques[2 * i + 1]);
             // printf(wheel_torques[2 * i]); // units: (rad/sec)
             // printf(motor_const * wheel_torques[2 * i + 1]);
             // state.kelo_cmd.trq[0] = motor_const * wheel_torques[2 * i];
@@ -470,8 +397,8 @@ int main(int argc, char *argv[])
             // state.kelo_cmd.trq[3] = wheel_torques[0];
             // state.kelo_cmd.trq[2] = 0.5;
             // state.kelo_cmd.trq[3] = -0.5;
-            state.kelo_cmd.trq[2 *i] = -wheel_torques[2*i+1];
-            state.kelo_cmd.trq[2 *i+1] = wheel_torques[2*i];
+            state.kelo_cmd.trq[2 * i] = -wheel_torques[2 * i + 1];
+            state.kelo_cmd.trq[2 * i + 1] = wheel_torques[2 * i];
             // mapping from WS21 to robif2b
             /*
                 ws21 -> robif2b
