@@ -17,6 +17,11 @@ The aim of the project is performing a controlled movement over the ramp using m
   Project milestone deliverables can be found <a href="https://drive.google.com/drive/u/3/folders/1boct6apoQLtNgNKWaS_PBlGO9Hr4Donh">here</a>!
 </p>
 
+## Ramping behaviour output:
+
+![test](https://j.gifs.com/wmmDnR.gif)
+
+
 ## Getting started
 
 ### Required library
@@ -25,10 +30,6 @@ The aim of the project is performing a controlled movement over the ramp using m
 - robif2b - robot control interface [robif2b](https://github.com/rosym-project/robif2b)
 - GSL - GNU Scientific Library [GSL](https://github.com/ampl/gsl)
 - WS21 SDP repository: Motion Control of the KELO 500 [Kelo 500 motion control](https://github.com/HBRS-SDP/ws21-kelo-500-motion-control)
-
-#### [**TODO 1: how to create an install folder (where we keep all SOEM files)?]
-
-#### [**TODO 2: instructions for WS21 ?]
 
 ### Building SOEM library
 
@@ -50,6 +51,8 @@ target_link_libraries(soem ${OS_LIBS})
 Continue building steps:
 
 ```
+mkdir install
+cd ..
 cd SOEM
 mkdir build
 cd build
@@ -57,13 +60,15 @@ cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install ..
 make install
 ```
 
-### Building robif2b library
+### Building WS21 SDP library
 
 ```bash
-cd robif2b
+git clone https://github.com/HBRS-SDP/ws21-kelo-500-motion-control
+cd ws21-kelo-500-motion-control/KELO_SDP
 mkdir build && cd build
 cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install ..
-cmake -DCMAKE_C_FLAGS="-I<path to install your folder>/install/include" -DENABLE_ETHERCAT=ON -DENABLE_KELO=ON ..
+cmake -DCMAKE_C_FLAGS="-I<path to install your folder>/install/include" -DENABLE_PACKAGE_REGISTRY=on -DENABLE_ETHERCAT=ON ..
+make install
 ```
 
 ### How to get active wheels (slaves) indexes
@@ -75,7 +80,7 @@ sudo ./slaveinfo <your-ethernet-port-id>
 
 [FYI: get the ethernet port id by running `ifconfig` or `ip a`]
 
-## Running the code
+## Building the code
 ```
 git clone --recursive https://github.com/HBRS-SDP/ss22-motion-primitive-freddy.git
 mkdir build && cd build
@@ -83,39 +88,36 @@ cmake ..
 make
 ```
 
+### Building robif2b library
+
+```bash
+cd robif2b
+mkdir build && cd build
+cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install ..
+cmake -DCMAKE_C_FLAGS="-I<path to install your folder>/install/include" -DENABLE_PACKAGE_REGISTRY=on -DENABLE_ETHERCAT=ON -DENABLE_KELO=ON ..
+make install
+```
+
+## Running the code
+```bash
+(from outside of cloned repo)
+cd ss22-motion-primitive-freddy/build
+sudo ./us5 <wheel_alignment_direction> # where wheel_alignment_direction is 0, 90, 180, or 270
+```
+
 ## How to make any library as a package:
 
-1. Create a CMakeLists.txt file. Main features of the file are: 
+- Create a CMakeLists.txt file. Main features of the file are: 
   - **find_package** finds for the file or library mentioned in the closed parenthesis.<br> **Example:** `find_package(robif2b REQUIRED)`
   - **add_executable** adds the executable target <name> needs to be built from the listed source files. <br>
 **Example:** `add_executable(us2 src/kelo_robile_example_us2.c)`
   - **target_link_libraries** takes the target and adds dependency. <br> **Example:** `target_link_libraries(us2 robif2b::kelo m)`
-2. Commands to build: <br>
-- Build ws21-kelo-500-motion-control
-``` 
- cd ws21-kelo-500-motion-control/KELO_SDP/build
- cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install -DENABLE_PACKAGE_REGISTRY=on ..
- make
-```
- - Build robif2b
- ``` 
- cd robif2b/build
- cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install -DENABLE_PACKAGE_REGISTRY=on -DENABLE_ETHERCAT=on -DENABLE_KELO=on ..
- make
-``` 
- - Build ss22-motion-primitive-freddy
-  
- ``` 
- cd ss22-motion-primitive-freddy
- mkdir build
- cmake ..
- make
-``` 
+
 
 ## User stories / TODO
 
 - [x] Running previous semester SDP (Force distribution).
 - [x] Orientation of wheel units to disired configuration.
 - [x] Align the robot with ramp base.
-- [ ] Implement ramp-up behaviour.
-- [ ] Integrate sub-modules as a complete state machine.
+- [x] Implement ramp-up behaviour.
+- [x] Integrate sub-modules as a complete state machine.
