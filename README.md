@@ -19,7 +19,7 @@ The aim of the project is performing a controlled movement over the ramp using m
 
 ## Ramping behaviour output:
 
-![test](https://j.gifs.com/wmmDnR.gif)
+![test](media/images/ramp.gif)
 
 
 ## Getting started
