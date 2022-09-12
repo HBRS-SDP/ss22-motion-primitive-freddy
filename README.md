@@ -103,6 +103,10 @@ make install
 (from outside of cloned repo)
 cd ss22-motion-primitive-freddy/build
 sudo ./us5 <wheel_alignment_direction> # where wheel_alignment_direction is 0, 90, 180, or 270
+
+# or run individual user stories, for example 
+sudo ./us2 90 # to align wheels in 90 degrees (+Y direction)
+
 ```
 
 ## How to make any library as a package:
