@@ -20,6 +20,15 @@ target_link_libraries(us1
   m
 )
 
+add_executable(us1_act
+  src/kelo_robile_example_us1_act_whl.c
+)
+target_link_libraries(us1_act
+  robif2b::kelo
+  robif2b::ethercat
+  kelo_sdp::robile_kinematics
+  m
+)
 
 add_executable(us2 
   src/kelo_robile_example_us2.c
@@ -39,6 +48,28 @@ target_link_libraries(us3
   robif2b::ethercat
   m
 )
+
+add_executable(us4 
+  src/kelo_robile_example_us4.c
+)
+target_link_libraries(us4
+  robif2b::kelo
+  robif2b::ethercat
+  kelo_sdp::robile_kinematics
+  m
+)
+
+add_executable(us4_act 
+  src/kelo_robile_example_us4_act_whl.c
+)
+target_link_libraries(us4_act
+  robif2b::kelo
+  robif2b::ethercat
+  kelo_sdp::robile_kinematics
+  m
+)
+
+
 
 add_executable(us5
   src/kelo_robile_example_us5.c
