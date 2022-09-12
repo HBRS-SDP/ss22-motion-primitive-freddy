@@ -192,82 +192,48 @@ int main(int argc, char *argv[])
     double setpoint[4] = {0, 0, 0, 0};
     if (angle == 0)
     {
-
-        // POS X
         setpoint[0] = 2.10;
         setpoint[1] = 3.47;
         setpoint[2] = 2.94;
         setpoint[3] = 0.6;
     }
 
-    // double thrd_pos_x[4] = {2.10,3.47,2.94,0.6};
-    //  TODO: use fmod using math.h library
-    //  double thrd_neg_x[4] = {fmod(2.10+pi,max_angle),fmod(0.33+pi,max_angle),fmod(2.94+pi,max_angle),fmod(0.6+pi,max_angle)};
-
     else if (angle == 90)
     {
-
-        // POS Y
-        // setpoint[0] = fmod(2.10 + pi/4, max_angle);
-        // setpoint[1] = fmod(3.47 + pi/4, max_angle);
-        // setpoint[2] = fmod(2.94 + pi/4, max_angle);
-        // setpoint[3] = fmod(0.60 + pi/4, max_angle);
-
         setpoint[0] = 2.10 + pi / 2; // 3.67
         setpoint[1] = 3.47 + pi / 2; // 5.04
         setpoint[2] = 2.94 + pi / 2; // 4.51
         setpoint[3] = 0.60 + pi / 2; // 2.17
-
-        // setpoint[4] = {2.10+pi/2, 3.47+pi/2, 2.94+pi/2, 0.6+pi/2};
     }
     else if (angle == 180)
     {
-
-        // NEG X
-
         setpoint[0] = fmod(2.10 + pi, max_angle); // 5.24
         setpoint[1] = fmod(3.47 + pi, max_angle);
         setpoint[2] = 2.94 + 3.14; // 2.94 + 3.14; //fmod(2.94 + pi, max_angle); //6.08
         setpoint[3] = fmod(0.60 + pi, max_angle);
-
-        // setpoint[0] = 2.10 + pi;
-        // setpoint[1] = 0.33;
-        // setpoint[2] = 2.94 + pi;
-        // setpoint[3] = 0.60 + pi;
-
-        // double setpoint[4] = {2.10+pi, 0.33, 2.94+pi, 0.6+pi};
     }
     else if (angle == 270)
     {
-        // NEG Y
-
         setpoint[0] = fmod(2.10 + 1.5 * pi, max_angle);
         setpoint[1] = fmod(3.47 + 1.5 * pi, max_angle);
         setpoint[2] = fmod(2.94 + 1.5 * pi, max_angle);
         setpoint[3] = fmod(0.60 + 1.5 * pi, max_angle);
-
-        // setpoint[0] = 0.53;
-        // setpoint[1] = 1.9;
-        // setpoint[2] = 1.37;
-        // setpoint[3] = 0.60 + 1.5*pi;
-
-        // double setpoint = {0.53, 1.9, 1.37, 0.6+1.5*pi};
     }
 
     int stop_wheel_counter[4] = {0, 0, 0, 0};
     bool isAligned = false;
+    int loop_counter = 0;
     double error_margin = 0.07;      // radians
-    double motor_torque_value = 1.7; // Nm/A
-
-    // double thrd_neg_x[4] = {2.10+pi, 0.33, 2.94+pi, 0.6+pi};
-    // double thrd_pos_y[4] = {2.10+pi/2, 3.47+pi/2, 2.94+pi/2, 0.6+pi/2};
-    //  double thrd_neg_y[4] = {2.10+1.5*pi, 3.47+1.5*pi, 2.94+1.5*pi, 0.6+1.5*pi};
-    // double thrd_neg_y[4] = {0.53, 1.9, 1.37, 0.6+1.5*pi};
+    double motor_torque_value = 1.5; // Nm/A
 
     while (true)
     {
         if (state.ecat.error_code < 0)
             return -1;
+
+        /*
+            Align the wheels
+        */
 
         for (int i = 0; i < NUM_DRIVES; i++)
         {
@@ -281,16 +247,6 @@ int main(int argc, char *argv[])
                 }
                 else
                 {
-                    // for index 2 change the motor torque value to 1.2
-                    // if (i == 2)
-                    // {
-                    //     state.kelo_cmd.trq[i] = motor_torque_value;
-                    // }
-                    // else
-                    // {
-                    //     state.kelo_cmd.trq[i] = 0.00;
-                    // }
-
                     state.kelo_cmd.trq[2 * i] = motor_torque_value; // clockwise
                     state.kelo_cmd.trq[2 * i + 1] = motor_torque_value;
                     printf("!!!CLOCKWISE %d\n", i);
@@ -298,10 +254,8 @@ int main(int argc, char *argv[])
             }
             else
             {
-
                 if (isAligned == false)
                 {
-
                     if (stop_wheel_counter[2] == 1 && i == 2)
                     {
                         printf("!!!wheel unit 2 stopped\n");
@@ -310,7 +264,6 @@ int main(int argc, char *argv[])
                     }
                     else
                     {
-
                         state.kelo_cmd.trq[2 * i] = -motor_torque_value; // counterclockwise
                         state.kelo_cmd.trq[2 * i + 1] = -motor_torque_value;
                         printf("!!!ANTI-CLOCKWISE %d\n", i);
@@ -332,13 +285,76 @@ int main(int argc, char *argv[])
             }
         }
 
-        if (stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 1 && stop_wheel_counter[3] == 1)
+        // count number of ones in stop_wheel_counter
+        int wheel_align_counter = 0;
+        for (int i = 0; i < NUM_DRIVES; i++)
         {
-            printf("\n*********");
-            printf("\nAll wheels are aligned!!!!!!");
-            printf("\n*********\n\n");
-            isAligned = true;
-            // break;
+            if (stop_wheel_counter[i] == 1)
+            {
+                wheel_align_counter++;
+            }
+        }
+
+        // print number of aligned wheels
+        printf("\n!!!Number of aligned wheels: %d\n", wheel_align_counter);
+
+        loop_counter = loop_counter + 1;
+
+        if (loop_counter < 5000)
+        {
+            if (stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 1 && stop_wheel_counter[3] == 1)
+            {
+
+                printf("\n*********");
+                printf("\n Platform is aligned!!!!!!");
+                printf("\n*********\n\n");
+                isAligned = true;
+            }
+
+            else
+            {
+                printf("\nSTOP WHEEL COUNTER 0: %d", stop_wheel_counter[0]);
+                printf("\nSTOP WHEEL COUNTER 1: %d", stop_wheel_counter[1]);
+                printf("\nSTOP WHEEL COUNTER 2: %d", stop_wheel_counter[2]);
+                printf("\nSTOP WHEEL COUNTER 3: %d", stop_wheel_counter[3]);
+
+                // print isAligned status
+                printf("\n\n isAligned: %d\n", isAligned);
+
+                printf("\n*********");
+                printf("\n ** WHEELS ARE NOT ALIGNED **");
+                printf("\n*********\n\n");
+            }
+        }
+        else
+        {
+            printf("!!!100 iterations completed\n");
+            // any of the 3 wheels are aligned, then the robot is aligned
+            if (wheel_align_counter >= NUM_DRIVES - 1)
+            // if (stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 1 && stop_wheel_counter[3] == 1)
+            {
+                printf("!!!100 iterations completed\n");
+                printf("\n*********");
+                printf("\n Platform is aligned!!!!!!");
+                printf("\n*********\n\n");
+                isAligned = true;
+            }
+
+            else
+            {
+                printf("!!!100 iterations completed\n");
+                printf("\nSTOP WHEEL COUNTER 0: %d", stop_wheel_counter[0]);
+                printf("\nSTOP WHEEL COUNTER 1: %d", stop_wheel_counter[1]);
+                printf("\nSTOP WHEEL COUNTER 2: %d", stop_wheel_counter[2]);
+                printf("\nSTOP WHEEL COUNTER 3: %d", stop_wheel_counter[3]);
+
+                // print isAligned status
+                printf("\n\n isAligned: %d\n", isAligned);
+
+                printf("\n*********");
+                printf("\n ** WHEELS ARE NOT ALIGNED **");
+                printf("\n*********\n\n");
+            }
         }
 
         clock_gettime(CLOCK_MONOTONIC, &state.time.cycle_start);
@@ -348,28 +364,28 @@ int main(int argc, char *argv[])
         robif2b_kelo_drive_actuator_update(&wheel_act);
         robif2b_kelo_power_board_update(&power_board);
 
-        for (int i = 0; i < NUM_DRIVES; i++)
-        {
+        // for (int i = 0; i < NUM_DRIVES; i++)
+        // {
 
-            printf("drive [id=%i, conn=%i]: "
-                   "w_vel[0]=%5.2f - w_vel[1]=%5.2f - p_pos=%5.2f - w_pos[0]=%5.2f - w_pos[1]=%5.2f\n",
-                   i, state.ecat.is_connected[i + 1],
-                   state.kelo_msr.whl_vel[i * 2 + 0],
-                   state.kelo_msr.whl_vel[i * 2 + 1],
-                   state.kelo_msr.pvt_pos[i],
-                   state.kelo_msr.whl_pos[i * 2 + 0],
-                   state.kelo_msr.whl_pos[i * 2 + 1]);
-            // double pvangle[NUM_DRIVES] = state.kelo_msr.pvt_pos[i]
-        }
+        //     printf("drive [id=%i, conn=%i]: "
+        //            "w_vel[0]=%5.2f - w_vel[1]=%5.2f - p_pos=%5.2f - w_pos[0]=%5.2f - w_pos[1]=%5.2f\n",
+        //            i, state.ecat.is_connected[i + 1],
+        //            state.kelo_msr.whl_vel[i * 2 + 0],
+        //            state.kelo_msr.whl_vel[i * 2 + 1],
+        //            state.kelo_msr.pvt_pos[i],
+        //            state.kelo_msr.whl_pos[i * 2 + 0],
+        //            state.kelo_msr.whl_pos[i * 2 + 1]);
+        //     // double pvangle[NUM_DRIVES] = state.kelo_msr.pvt_pos[i]
+        // }
 
-        printf("power board conn=%i: "
-               "b_volt=%5.2f - b_cur[1]=%5.2f - b_pwr=%5.2f - b_lvl=%5.2i\n",
-               state.ecat.is_connected[0],
-               state.kelo_msr.bat_volt,
-               state.kelo_msr.bat_cur,
-               state.kelo_msr.bat_pwr,
-               state.kelo_msr.bat_lvl);
-        printf("\n");
+        // printf("power board conn=%i: "
+        //        "b_volt=%5.2f - b_cur[1]=%5.2f - b_pwr=%5.2f - b_lvl=%5.2i\n",
+        //        state.ecat.is_connected[0],
+        //        state.kelo_msr.bat_volt,
+        //        state.kelo_msr.bat_cur,
+        //        state.kelo_msr.bat_pwr,
+        //        state.kelo_msr.bat_lvl);
+        // printf("\n");
 
         clock_gettime(CLOCK_MONOTONIC, &state.time.cycle_end);
         state.time.cycle_time_msr = timespec_to_usec(&state.time.cycle_end) - timespec_to_usec(&state.time.cycle_start);
