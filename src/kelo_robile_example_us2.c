@@ -283,6 +283,18 @@ int main(int argc, char *argv[])
                 stop_wheel_counter[i] = 0;
                 isAligned = false;
             }
+
+            if (isAligned == true)
+            {
+                state.kelo_cmd.trq[0] = 0.00;
+                state.kelo_cmd.trq[1] = 0.00;
+                state.kelo_cmd.trq[2] = 0.00;
+                state.kelo_cmd.trq[3] = 0.00;
+                state.kelo_cmd.trq[4] = 0.00;
+                state.kelo_cmd.trq[5] = 0.00;
+                state.kelo_cmd.trq[6] = 0.00;
+                state.kelo_cmd.trq[7] = 0.00;
+            }
         }
 
         // count number of ones in stop_wheel_counter
@@ -300,7 +312,7 @@ int main(int argc, char *argv[])
 
         loop_counter = loop_counter + 1;
 
-        if (loop_counter < 5000)
+        if (loop_counter < 3000)
         {
             if (stop_wheel_counter[0] == 1 && stop_wheel_counter[1] == 1 && stop_wheel_counter[2] == 1 && stop_wheel_counter[3] == 1)
             {
