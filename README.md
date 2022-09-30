@@ -51,12 +51,11 @@ target_link_libraries(soem ${OS_LIBS})
 Continue building steps:
 
 ```
-mkdir install
-cd ..
+mkdir install 
 cd SOEM
 mkdir build
 cd build
-cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install ..
+cmake -DCMAKE_INSTALL_PREFIX=<path to created install folder>/install ..
 make install
 ```
 
@@ -66,8 +65,8 @@ make install
 git clone https://github.com/HBRS-SDP/ws21-kelo-500-motion-control
 cd ws21-kelo-500-motion-control/KELO_SDP
 mkdir build && cd build
-cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install ..
-cmake -DCMAKE_C_FLAGS="-I<path to install your folder>/install/include" -DENABLE_PACKAGE_REGISTRY=on -DENABLE_ETHERCAT=ON ..
+cmake -DCMAKE_INSTALL_PREFIX=<path to created install folder>/install ..
+cmake -DCMAKE_C_FLAGS="-I<path to created install folder>/install/include" -DENABLE_PACKAGE_REGISTRY=on -DENABLE_ETHERCAT=ON ..
 make install
 ```
 
@@ -93,8 +92,8 @@ make
 ```bash
 cd robif2b
 mkdir build && cd build
-cmake -DCMAKE_INSTALL_PREFIX=<path to install your folder>/install ..
-cmake -DCMAKE_C_FLAGS="-I<path to install your folder>/install/include" -DENABLE_PACKAGE_REGISTRY=on -DENABLE_ETHERCAT=ON -DENABLE_KELO=ON ..
+cmake -DCMAKE_INSTALL_PREFIX=<path to created install folder>/install ..
+cmake -DCMAKE_C_FLAGS="-I<path to created install folder>/install/include" -DENABLE_PACKAGE_REGISTRY=on -DENABLE_ETHERCAT=ON -DENABLE_KELO=ON ..
 make install
 ```
 
